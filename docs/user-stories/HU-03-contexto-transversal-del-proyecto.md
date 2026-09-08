@@ -129,6 +129,7 @@ Las ramas posteriores a “continuar hacia carta” aún deben dividirse y defin
 - El rechazo es genérico: la sucursal no debe indicar qué producto o ingrediente falta.
 - Después del rechazo, el cliente puede modificar el pedido y enviarlo nuevamente a la sucursal para aceptación.
 - El panel del MVP solamente permite recibir la notificación y aceptar o rechazar.
+- Cada sucursal solamente puede ver y gestionar los pedidos asignados a esa misma sucursal.
 - El comportamiento ante falta de respuesta todavía debe definirse.
 
 ## Tecnologías aprobadas
@@ -196,7 +197,7 @@ La carta de Toliv es una referencia dinámica, no una fuente técnica congelada.
 - Tiempo máximo que el cliente esperará la aceptación.
 - Método de aviso, aceptación y reasignación para repartidores después del MVP.
 - Cantidad real de grupos de repartidores y participantes.
-- Acceso y separación de sucursales dentro del panel mínimo.
+- Método de acceso e identificación de cada sucursal dentro del panel mínimo.
 - Roles, pantallas y estados de un panel operativo posterior.
 - Reglas para cancelar, modificar, duplicar o abandonar un pedido.
 - Feriados, cierres excepcionales y cambios manuales de horario.
