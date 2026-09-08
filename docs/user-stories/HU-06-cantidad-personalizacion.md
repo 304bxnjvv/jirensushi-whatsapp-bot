@@ -26,6 +26,8 @@ para agregar al carrito exactamente lo que necesito.
 - Si el cliente elige `Sí`, escribe todas sus modificaciones libremente en un mensaje.
 - El bot interpreta solicitudes como quitar, reemplazar o agregar y muestra un resumen estructurado.
 - Ninguna modificación queda confirmada solo por haber sido interpretada; el cliente debe aprobar el resumen.
+- Después del resumen de cada unidad, muestra `Confirmar unidad`, `Modificar` y `Cancelar producto`.
+- `Modificar` permite corregir las elecciones o modificaciones de la unidad actual antes de confirmarla.
 - Si alguna modificación no se entiende con seguridad, el bot no aplica ningún cambio parcial.
 - Ante interpretación incompleta o ambigua, pide al cliente escribir nuevamente todas las modificaciones de esa unidad.
 - Los productos con grupos obligatorios deben completar esas elecciones.
