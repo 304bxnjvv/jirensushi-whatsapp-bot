@@ -104,9 +104,35 @@ Todos cuestan **$11.900**. La cantidad de piezas no aparece indicada en la image
 | Hiroshi Rolls | Queso Crema, Palta, Masago, Camarón y Pollo Teriyaki | Envuelto en Plátano frito | $11.900 |
 | Avo Teriyaki | Queso Crema, Pimentón Furay, Plátano frito y Pollo Teriyaki | Envuelto en Palta | $11.900 |
 
+## Categoría 4 — Rolls premium con arroz
+
+Todos cuestan **$11.900**. La cantidad de piezas no aparece indicada en la imagen.
+
+| Producto | Descripción mostrada | Precio |
+|---|---|---:|
+| Hot Rolls | Relleno (Pollo Teriyaki, Palta, Cebollín). Envuelto en queso crema y bañado con salsa spicy, coronado con camarón furay, glaseado con salsa unagui. | $11.900 |
+| Jiren Rolls | Relleno (Queso Crema, Pollo Teriyaki y Camarón). Envuelto en plátano y bañado con topping Jiren. | $11.900 |
+| Dabura Rolls | Relleno (Queso Crema, Palta, Palmito). Envuelto en Salmón flameado, coronado con Camarón furay, bañado con salsa acevichada. | $11.900 |
+| Himura Rolls | Relleno (Queso Crema, Pollo Teriyaki y Palta). Envuelto en plátano furay, coronado con queso cheddar gratinado, glaseado con salsa unagui. | $11.900 |
+| Akira Rolls | Relleno (Palmito, Palta, Camarón). Envuelto en queso crema flameado, bañado con tartar de salmón. | $11.900 |
+| Acevichado Rolls | Relleno (Queso Crema, Palta, Pulpo). Envuelto en alga nori y bañado con ceviche salmón. | $11.900 |
+| Tropical Rolls | Relleno (Queso Crema, Palta, Salmón). Envuelto en mango, bañado con salsa acevichada. | $11.900 |
+| Kirito Rolls | Relleno (Queso Crema, Palta, Champiñón Furay). Envuelto en plátano frito, bañado en topping de champiñones. | $11.900 |
+| Kenji Rolls | Relleno (Camarón Furay y Queso Crema). Envuelto en nori, coronado con tartar de salmón flameado y toques de salsa Spicy. | $11.900 |
+| Tenshin Rolls | Relleno (Queso Crema, Palta y Camarón Furay). Envuelto en atún, coronado con atún furay, bañado en salsa de maracuyá. | $11.900 |
+| Wakame Rolls | Relleno (Queso Crema, Cebollín, Salmón Furay). Envuelto en Palta, bañado con topping wakame. | $11.900 |
+| Huancaina Rolls | Relleno (Queso Crema, Palta, Cebollín, Camarón Furay). Envuelto en alga nori y bañado en salsa huancaína. | $11.900 |
+| Veggie Rolls | Relleno (Palmito, Palta, Cebollín). Envuelto en queso crema, bañado con salsa spicy, coronado con champiñón Furay, glaseado con salsa unagui. | $11.900 |
+| Hit Rolls | Relleno (Queso Crema, Palta, Camarón). Envuelto en atún, bañado en salsa Mango, coronado con salmón furay. | $11.900 |
+| Whis Rolls | Relleno (Queso Crema, Salmón y Camarón). Envuelto en atún, bañado con salsa de maracuyá. | $11.900 |
+| Megumi Rolls | Relleno (Queso Crema, Pimentón y Camarón). Envuelto en palta, bañado en topping ceviche y salsa acevichada. | $11.900 |
+| Ginyu Rolls | Relleno (Queso Crema, Masago, Kanikama y Salmón). Envuelto en salmón, bañado en salsa de aceituna y salsa acevichada. | $11.900 |
+| Bills Rolls | Relleno (Queso Crema, Palta, Camarón Furay). Envuelto en salmón flameado, bañado en topping de pulpo al olivo. | $11.900 |
+| Hiroko Rolls | Relleno (Salmón, Queso Crema y Palta). Envuelto en pepino, coronado con topping de atún marinado. | $11.900 |
+| Karin Rolls | Relleno (Camarón Furay, Queso Crema y Cebollín). Envuelto en palta y salmón, bañado en salsa acevichada, coronado con masago. | $11.900 |
+
 ## Categorías pendientes de transcripción y aprobación
 
-- Rolls premium con arroz.
 - Tablas vegetarianas.
 - Tablas calientes.
 - Tablas frías.
