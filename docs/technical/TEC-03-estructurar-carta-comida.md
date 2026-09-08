@@ -131,9 +131,22 @@ Todos cuestan **$11.900**. La cantidad de piezas no aparece indicada en la image
 | Hiroko Rolls | Relleno (Salmón, Queso Crema y Palta). Envuelto en pepino, coronado con topping de atún marinado. | $11.900 |
 | Karin Rolls | Relleno (Camarón Furay, Queso Crema y Cebollín). Envuelto en palta y salmón, bañado en salsa acevichada, coronado con masago. | $11.900 |
 
+## Categoría 5 — Tablas vegetarianas
+
+Cada número `10` representa diez piezas del corte indicado.
+
+| Precio | Total de piezas | Composición mostrada |
+|---:|---:|---|
+| $12.000 | 20 | 10 Panko Champiñón; 10 Panko Pimentón |
+| $15.000 | 30 | 10 Panko Champiñón; 10 Panko Pimentón; 10 California Palmito |
+| $25.000 | 50 | 10 Panko Champiñón; 10 Panko Pimentón; 10 California Palmito; 10 Cheese Champiñón Furay; 10 Avocado Palmito o Pimentón |
+
+### Elección de la tabla de $25.000
+
+El cliente debe elegir un solo relleno, `Palmito` o `Pimentón`, para las 10 piezas Avocado. No corresponden cinco piezas de cada relleno.
+
 ## Categorías pendientes de transcripción y aprobación
 
-- Tablas vegetarianas.
 - Tablas calientes.
 - Tablas frías.
 - Tablas mixtas.
