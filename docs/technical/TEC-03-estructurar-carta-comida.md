@@ -28,6 +28,9 @@ Convertir la carta oficial entregada en imágenes a datos estructurados que el b
 - La composición estructurada no reemplaza la descripción visible de la tabla.
 - Categorías y productos conservarán el mismo orden visual de las imágenes.
 - El JSON tendrá un campo de orden explícito para que la presentación no dependa de la posición accidental de los objetos.
+- Todas las sucursales mostrarán la carta completa durante el MVP.
+- El JSON no tendrá stock ni disponibilidad por sucursal.
+- La disponibilidad real se comprobará cuando la sucursal acepte o rechace el pedido desde el panel mínimo.
 - Los precios se guardarán como números enteros en pesos chilenos, por ejemplo `11900`.
 - El formato visible con signo y separador, por ejemplo `$11.900`, se genera al responder al cliente y no se guarda como texto.
 
