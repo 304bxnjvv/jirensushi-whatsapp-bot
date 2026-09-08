@@ -41,6 +41,9 @@ Después de agregar un producto mediante las historias posteriores, el bot vuelv
 - Categorías y productos conservan el orden definido en TEC-03.
 - El cliente puede seleccionar mediante controles de WhatsApp o escribir libremente.
 - Si el cliente escribe directamente el nombre de un producto reconocido, el bot puede abrir ese producto sin obligarlo a navegar categorías.
+- La comparación por texto ignora mayúsculas, minúsculas y tildes.
+- El bot tolera errores menores solamente cuando existe una única coincidencia clara.
+- Si la coincidencia es ambigua, no selecciona categoría ni producto.
 - Tras agregar un producto, se vuelve a la lista general de categorías.
 - Los tragos no aparecen en el MVP.
 - La fuente de datos es el JSON definido en [TEC-03](../technical/TEC-03-estructurar-carta-comida.md).
