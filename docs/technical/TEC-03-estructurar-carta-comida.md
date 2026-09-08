@@ -18,6 +18,8 @@ Convertir la carta oficial entregada en imágenes a datos estructurados que el b
 - La carta del MVP se almacenará en un archivo JSON versionado dentro del backend.
 - Cambiar la carta requerirá modificar el JSON y desplegar nuevamente.
 - D1 no almacenará la carta durante el MVP; se reservará para conversaciones y pedidos.
+- Categorías y productos usarán identificadores legibles y estables en formato `slug`, por ejemplo `rolls-sin-arroz`, `avo-furay` y `tabla-mixta-15000`.
+- El identificador no debe depender del nombre mostrado después de su creación.
 
 ## Orden aprobado de categorías
 
@@ -188,7 +190,6 @@ Las ocho categorías de comida fueron transcritas. Falta validar el conjunto com
 
 ## Pendiente posterior a la transcripción
 
-- Definir identificadores estables de productos y categorías.
 - Definir estructura de datos final del JSON.
 - Definir cómo representar opciones de proteína.
 - Definir cómo representar ingredientes removibles, reemplazables y adicionales.
