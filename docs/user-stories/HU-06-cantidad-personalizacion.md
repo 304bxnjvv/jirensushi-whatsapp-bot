@@ -23,6 +23,9 @@ para agregar al carrito exactamente lo que necesito.
 - Ante una cantidad inválida, el bot no avanza ni modifica el carrito y vuelve a solicitarla.
 - El cliente puede quitar, reemplazar y agregar ingredientes.
 - Los productos con grupos obligatorios deben completar esas elecciones.
+- Cuando la cantidad es mayor que uno, cada unidad se personaliza por separado.
+- El bot identifica claramente el avance, por ejemplo `Unidad 1 de 3`.
+- Una personalización no se copia automáticamente a las otras unidades.
 - La composición de las tablas es fija: no se puede cambiar un corte por otro.
 - Solo se permiten elecciones de tabla mostradas explícitamente en TEC-03.
 - El producto se agrega al carrito únicamente después de completar cantidad, elecciones y personalización.
