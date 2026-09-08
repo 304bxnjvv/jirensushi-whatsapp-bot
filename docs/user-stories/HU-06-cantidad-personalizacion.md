@@ -22,6 +22,10 @@ para agregar al carrito exactamente lo que necesito.
 - `0`, números negativos, decimales y textos sin una cantidad identificable son inválidos.
 - Ante una cantidad inválida, el bot no avanza ni modifica el carrito y vuelve a solicitarla.
 - El cliente puede quitar, reemplazar y agregar ingredientes.
+- El bot pregunta `¿Quieres modificar ingredientes?` y muestra botones `Sí` y `No`.
+- Si el cliente elige `Sí`, escribe todas sus modificaciones libremente en un mensaje.
+- El bot interpreta solicitudes como quitar, reemplazar o agregar y muestra un resumen estructurado.
+- Ninguna modificación queda confirmada solo por haber sido interpretada; el cliente debe aprobar el resumen.
 - Los productos con grupos obligatorios deben completar esas elecciones.
 - Para cada unidad, el bot solicita primero todas las elecciones obligatorias y después las modificaciones.
 - El orden general es: cantidad → elecciones obligatorias → modificaciones → confirmación de la unidad.
@@ -37,7 +41,6 @@ para agregar al carrito exactamente lo que necesito.
 
 ## Pendiente de definición
 
-- Forma conversacional de quitar, reemplazar y agregar ingredientes.
 - Confirmación previa a agregar al carrito.
 - Corrección o cancelación durante la personalización.
 - Precios y reglas de agregados y reemplazos.
