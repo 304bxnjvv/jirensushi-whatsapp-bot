@@ -23,6 +23,8 @@ para agregar al carrito exactamente lo que necesito.
 - Ante una cantidad inválida, el bot no avanza ni modifica el carrito y vuelve a solicitarla.
 - El cliente puede quitar, reemplazar y agregar ingredientes.
 - Los productos con grupos obligatorios deben completar esas elecciones.
+- Para cada unidad, el bot solicita primero todas las elecciones obligatorias y después las modificaciones.
+- El orden general es: cantidad → elecciones obligatorias → modificaciones → confirmación de la unidad.
 - Cuando la cantidad es mayor que uno, cada unidad se personaliza por separado.
 - El bot identifica claramente el avance, por ejemplo `Unidad 1 de 3`.
 - Una personalización no se copia automáticamente a las otras unidades.
@@ -35,7 +37,6 @@ para agregar al carrito exactamente lo que necesito.
 
 ## Pendiente de definición
 
-- Orden entre elecciones obligatorias y personalización.
 - Forma conversacional de quitar, reemplazar y agregar ingredientes.
 - Confirmación previa a agregar al carrito.
 - Corrección o cancelación durante la personalización.
