@@ -26,6 +26,8 @@ para agregar al carrito exactamente lo que necesito.
 - Cuando la cantidad es mayor que uno, cada unidad se personaliza por separado.
 - El bot identifica claramente el avance, por ejemplo `Unidad 1 de 3`.
 - Una personalización no se copia automáticamente a las otras unidades.
+- Desde la segunda unidad, el bot ofrece `Igual a la anterior`.
+- Esa acción copia las elecciones obligatorias y modificaciones de la unidad inmediatamente anterior.
 - La composición de las tablas es fija: no se puede cambiar un corte por otro.
 - Solo se permiten elecciones de tabla mostradas explícitamente en TEC-03.
 - El producto se agrega al carrito únicamente después de completar cantidad, elecciones y personalización.
