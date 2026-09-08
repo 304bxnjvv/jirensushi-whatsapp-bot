@@ -50,9 +50,40 @@ Todos los productos tienen precio de **$6.990**.
 | 6 | Gunkan Plátano | $6.990 |
 | No indicada | Papas Jiren | $6.990 |
 
+## Categoría 2 — Cortes individuales
+
+Cada corte cuesta **$8.990** y requiere elegir exactamente una proteína. La cantidad de piezas no aparece indicada en la imagen y no debe inventarse.
+
+| Producto | Relleno mostrado | Envuelto mostrado | Precio |
+|---|---|---|---:|
+| Rainbow Rolls | Queso Crema, Cebollín y Proteína | Palta + Salmón o Camarón | $8.990 |
+| Masago Rolls | Queso Crema, Palta y Proteína | Masago | $8.990 |
+| Plátano Rolls | Queso Crema, Palta y Proteína | Plátano | $8.990 |
+| Panko Rolls | Queso Crema, Palta y Proteína | Panko | $8.990 |
+| California Rolls | Queso Crema, Palta y Proteína | Sésamo | $8.990 |
+| Sake Rolls | Queso Crema, Palta y Proteína | Salmón | $8.990 |
+| Maguro Rolls | Queso Crema, Palta y Proteína | Atún | $8.990 |
+| Futomaki Rolls | Queso Crema, Palta y Proteína | Alga Nori | $8.990 |
+| Cheese Rolls | Palta, Cebollín y Proteína | Queso Crema | $8.990 |
+| Avocado Rolls | Queso Crema, Cebollín y Proteína | Palta | $8.990 |
+
+### Proteínas disponibles
+
+- Kanikama.
+- Pollo Teriyaki.
+- Palmito.
+- Champiñón.
+- Atún.
+- Camarón.
+- Salmón.
+- Pulpo.
+
+### Regla especial de Rainbow Rolls
+
+Además de la proteína interior, el cliente debe elegir si el exterior lleva salmón o camarón.
+
 ## Categorías pendientes de transcripción y aprobación
 
-- Cortes individuales.
 - Rolls sin arroz.
 - Rolls premium con arroz.
 - Tablas vegetarianas.
