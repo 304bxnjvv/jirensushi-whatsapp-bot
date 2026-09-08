@@ -31,6 +31,9 @@ Convertir la carta oficial entregada en imágenes a datos estructurados que el b
 - Todas las sucursales mostrarán la carta completa durante el MVP.
 - El JSON no tendrá stock ni disponibilidad por sucursal.
 - La disponibilidad real se comprobará cuando la sucursal acepte o rechace el pedido desde el panel mínimo.
+- Las elecciones obligatorias se representarán mediante una estructura común `optionGroups`.
+- Cada grupo indicará sus opciones y la cantidad mínima y máxima que debe elegir el cliente.
+- Esta estructura se usará para la proteína de Cortes individuales, el exterior salmón/camarón de Rainbow Rolls y la elección palmito/pimentón de la tabla vegetariana de $25.000.
 - Los precios se guardarán como números enteros en pesos chilenos, por ejemplo `11900`.
 - El formato visible con signo y separador, por ejemplo `$11.900`, se genera al responder al cliente y no se guarda como texto.
 
@@ -204,7 +207,6 @@ Las ocho categorías de comida fueron transcritas. Falta validar el conjunto com
 ## Pendiente posterior a la transcripción
 
 - Definir estructura de datos final del JSON.
-- Definir cómo representar opciones de proteína.
 - Definir cómo representar ingredientes removibles, reemplazables y adicionales.
 - Definir recargos de agregados y reemplazos.
 - Validar la transcripción completa antes de cargarla al bot.
