@@ -26,6 +26,8 @@ Convertir la carta oficial entregada en imágenes a datos estructurados que el b
 - `preparation` representará por separado información como envuelto, bañado, coronado o flameado.
 - Las tablas tendrán `components`: una lista estructurada con la cantidad de piezas y el nombre de cada corte incluido.
 - La composición estructurada no reemplaza la descripción visible de la tabla.
+- Categorías y productos conservarán el mismo orden visual de las imágenes.
+- El JSON tendrá un campo de orden explícito para que la presentación no dependa de la posición accidental de los objetos.
 - Los precios se guardarán como números enteros en pesos chilenos, por ejemplo `11900`.
 - El formato visible con signo y separador, por ejemplo `$11.900`, se genera al responder al cliente y no se guarda como texto.
 
