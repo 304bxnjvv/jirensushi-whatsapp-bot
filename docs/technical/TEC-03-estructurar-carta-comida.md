@@ -24,6 +24,8 @@ Convertir la carta oficial entregada en imágenes a datos estructurados que el b
 - `ingredients` será una lista estructurada que permita identificar ingredientes durante una personalización.
 - `description` conservará el texto original visible de la carta.
 - `preparation` representará por separado información como envuelto, bañado, coronado o flameado.
+- Las tablas tendrán `components`: una lista estructurada con la cantidad de piezas y el nombre de cada corte incluido.
+- La composición estructurada no reemplaza la descripción visible de la tabla.
 - Los precios se guardarán como números enteros en pesos chilenos, por ejemplo `11900`.
 - El formato visible con signo y separador, por ejemplo `$11.900`, se genera al responder al cliente y no se guarda como texto.
 
