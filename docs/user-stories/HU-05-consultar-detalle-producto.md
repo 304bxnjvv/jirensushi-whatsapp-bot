@@ -22,6 +22,8 @@ para decidir si deseo agregarlo al pedido.
 - Después del detalle, el flujo continúa hacia HU-06 para elegir cantidad y personalización.
 - Si el cliente decide no continuar, vuelve a la lista general de categorías de HU-04.
 - Volver desde el detalle no modifica el carrito.
+- Después del detalle muestra exactamente dos acciones: `Elegir cantidad` y `Volver a categorías`.
+- `Elegir cantidad` deriva a HU-06 sin agregar todavía el producto.
 - Los datos provienen únicamente del JSON definido en TEC-03.
 
 ## Pendiente de definición
