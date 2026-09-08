@@ -134,6 +134,7 @@ Todos cuestan **$11.900**. La cantidad de piezas no aparece indicada en la image
 ## Categoría 5 — Tablas vegetarianas
 
 Cada número `10` representa diez piezas del corte indicado.
+La composición de las tablas es fija; no se permite cambiar un corte por otro salvo cuando la carta muestre una elección explícita.
 
 | Precio | Total de piezas | Composición mostrada |
 |---:|---:|---|
@@ -145,9 +146,19 @@ Cada número `10` representa diez piezas del corte indicado.
 
 El cliente debe elegir un solo relleno, `Palmito` o `Pimentón`, para las 10 piezas Avocado. No corresponden cinco piezas de cada relleno.
 
+## Categoría 6 — Tablas calientes
+
+La composición es fija.
+
+| Precio | Total de piezas | Composición mostrada |
+|---:|---:|---|
+| $12.000 | 20 | 10 Pollo Teriyaki; 10 Kanikama |
+| $15.000 | 30 | 10 Pollo Teriyaki; 10 Kanikama; 10 Camarón |
+| $20.000 | 40 | 10 Pollo Teriyaki; 10 Kanikama; 10 Camarón; 10 Salmón |
+| $25.000 | 50 | 10 Pollo Teriyaki; 10 Kanikama; 10 Camarón; 10 Salmón; 10 Pulpo |
+
 ## Categorías pendientes de transcripción y aprobación
 
-- Tablas calientes.
 - Tablas frías.
 - Tablas mixtas.
 
