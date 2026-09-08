@@ -14,6 +14,8 @@ para agregar al carrito exactamente lo que necesito.
 
 - HU-06 comienza después de seleccionar `Elegir cantidad` en HU-05.
 - El bot pregunta la cantidad antes de agregar el producto.
+- Para cantidad muestra botones `1`, `2` y `3`.
+- El cliente también puede escribir otra cantidad en texto libre.
 - El cliente puede quitar, reemplazar y agregar ingredientes.
 - Los productos con grupos obligatorios deben completar esas elecciones.
 - La composición de las tablas es fija: no se puede cambiar un corte por otro.
@@ -23,7 +25,7 @@ para agregar al carrito exactamente lo que necesito.
 
 ## Pendiente de definición
 
-- Forma de elegir y validar cantidad.
+- Validación de cantidades escritas.
 - Cantidad máxima por producto.
 - Orden entre elecciones obligatorias y personalización.
 - Forma conversacional de quitar, reemplazar y agregar ingredientes.
