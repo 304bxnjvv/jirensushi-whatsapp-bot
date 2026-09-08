@@ -38,6 +38,9 @@ Después de agregar un producto mediante las historias posteriores, el bot vuelv
 - Los productos se muestran en páginas de hasta ocho productos.
 - Cuando corresponda, la lista reserva filas para `Anterior` y `Siguiente`, respetando el máximo de diez filas de WhatsApp.
 - Cambiar de página no modifica el carrito ni selecciona un producto.
+- Cada página de productos incluye una opción visible `Volver a categorías`.
+- El bot también vuelve a la lista general cuando el cliente escribe términos claros como `volver` o `menú`.
+- Volver a categorías no modifica el carrito.
 - Categorías y productos conservan el orden definido en TEC-03.
 - El cliente puede seleccionar mediante controles de WhatsApp o escribir libremente.
 - Si el cliente escribe directamente el nombre de un producto reconocido, el bot puede abrir ese producto sin obligarlo a navegar categorías.
