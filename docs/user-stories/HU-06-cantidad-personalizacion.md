@@ -18,6 +18,9 @@ para agregar al carrito exactamente lo que necesito.
 - El cliente también puede escribir otra cantidad en texto libre.
 - El bot no impone una cantidad máxima por producto.
 - La sucursal conserva la posibilidad de rechazar el pedido desde el panel si no puede preparar la cantidad solicitada.
+- Una cantidad válida es únicamente un número entero mayor que cero.
+- `0`, números negativos, decimales y textos sin una cantidad identificable son inválidos.
+- Ante una cantidad inválida, el bot no avanza ni modifica el carrito y vuelve a solicitarla.
 - El cliente puede quitar, reemplazar y agregar ingredientes.
 - Los productos con grupos obligatorios deben completar esas elecciones.
 - La composición de las tablas es fija: no se puede cambiar un corte por otro.
@@ -27,7 +30,6 @@ para agregar al carrito exactamente lo que necesito.
 
 ## Pendiente de definición
 
-- Validación de cantidades escritas.
 - Orden entre elecciones obligatorias y personalización.
 - Forma conversacional de quitar, reemplazar y agregar ingredientes.
 - Confirmación previa a agregar al carrito.
