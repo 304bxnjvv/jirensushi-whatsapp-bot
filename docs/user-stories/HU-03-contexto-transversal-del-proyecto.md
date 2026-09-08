@@ -1,7 +1,7 @@
 # HU-03 — Documentar contexto transversal del proyecto
 
 **Área:** Transversal  
-**Componentes:** Negocio, WhatsApp, backend, datos, IA y futuro dashboard  
+**Componentes:** Negocio, WhatsApp, backend, datos, IA y panel mínimo  
 **Tipo:** Historia habilitadora de documentación  
 **Estado de definición:** Base inicial; las decisiones pendientes no deben asumirse
 
@@ -25,9 +25,10 @@ Instagram y Taplink serán puntos de entrada hacia ese WhatsApp. El MVP atiende 
 - Actualmente la persona del local publica el despacho en un grupo de repartidores y quien quiere tomarlo lo acepta.
 - Se asume, todavía sin confirmación, que existe un grupo de repartidores por sucursal.
 - PedidosYa también recibe pedidos, pero es un canal separado del chatbot.
-- En el MVP, el bot enviará cada pedido al número de WhatsApp actual de la sucursal asignada.
-- El cliente debe esperar hasta que la sucursal responda `ACEPTADO`; recién entonces recibe la confirmación definitiva.
-- El futuro panel operativo no está descartado. Debe mostrar pedidos listos para preparar y podría ayudar a coordinar repartidores.
+- En el MVP, cada pedido se notificará a la sucursal mediante un panel interno mínimo.
+- El panel permitirá únicamente `ACEPTAR` o `RECHAZAR` el pedido por ahora.
+- El cliente debe esperar hasta que la sucursal acepte el pedido en el panel; recién entonces recibe la confirmación definitiva.
+- Un panel operativo más completo podría incorporarse después para preparación y coordinación de repartidores.
 - La alternativa temporal de dejar pedidos en un chat fijado fue mencionada, pero no aprobada como solución.
 
 ## Sucursales y orden oficial en el bot
@@ -56,8 +57,8 @@ flowchart TD
     K --> L[Continuar hacia carta]
     H --> M[Armar y confirmar pedido]
     L --> M
-    M --> N[Enviar pedido al WhatsApp de la sucursal]
-    N --> O{Sucursal responde ACEPTADO}
+    M --> N[Notificar pedido en panel de sucursal]
+    N --> O{Sucursal acepta en el panel}
     O -->|Sí| P[Confirmar definitivamente al cliente]
     O -->|No, faltan ingredientes| Q[Informar que el pedido no puede aceptarse]
     Q --> R[Cliente modifica el pedido]
@@ -118,16 +119,16 @@ Las ramas posteriores a “continuar hacia carta” aún deben dividirse y defin
 - Para retiro se pide el nombre del cliente; el teléfono se obtiene desde WhatsApp.
 - Para despacho se contempla nombre, dirección completa y referencia opcional.
 
-## Entrega y aceptación del pedido
+## Notificación y aceptación del pedido
 
-- El bot envía el pedido cerrado al WhatsApp actual de la sucursal seleccionada o asignada.
-- El mensaje debe contener los datos necesarios para preparar el pedido.
-- El pedido queda `Pendiente de aceptación` mientras la sucursal no responda.
-- La respuesta `ACEPTADO` de la sucursal autoriza al bot a confirmar definitivamente al cliente.
-- Si la sucursal rechaza por falta de ingredientes, el bot informa al cliente que el pedido no puede aceptarse porque no están disponibles los ingredientes necesarios.
+- El bot publica el pedido cerrado en el panel interno de la sucursal seleccionada o asignada.
+- La notificación debe contener los datos necesarios para revisar el pedido.
+- El pedido queda `Pendiente de aceptación` mientras la sucursal no actúe en el panel.
+- La acción `ACEPTAR` autoriza al bot a confirmar definitivamente al cliente.
+- La acción `RECHAZAR` representa falta de ingredientes; el bot informa al cliente que el pedido no puede aceptarse porque no están disponibles los ingredientes necesarios.
 - El rechazo es genérico: la sucursal no debe indicar qué producto o ingrediente falta.
 - Después del rechazo, el cliente puede modificar el pedido y enviarlo nuevamente a la sucursal para aceptación.
-- No se requiere panel operativo para este proceso durante el MVP.
+- El panel del MVP solamente permite recibir la notificación y aceptar o rechazar.
 - El comportamiento ante falta de respuesta todavía debe definirse.
 
 ## Tecnologías aprobadas
@@ -140,7 +141,7 @@ Las ramas posteriores a “continuar hacia carta” aún deben dividirse y defin
 | Lenguaje natural | OpenAI API, modelo económico | Interpretar texto libre cuando reglas deterministas no basten | Uso variable; invocarla solo cuando aporte valor |
 | Direcciones | Google Maps Geocoding | Convertir y validar dirección | Nivel gratuito disponible; exige facturación y límites configurados |
 | Cercanía | Google Maps Routes, Route Matrix | Comparar ruta vehicular hacia seis sucursales | Cada origen × destino cuenta como elemento |
-| Dashboard futuro | Web estática/dinámica en Cloudflare | Operación de pedidos y posible coordinación | Alcance todavía pendiente |
+| Panel mínimo | Aplicación web en Cloudflare | Notificar pedidos y permitir aceptar o rechazar | Incluido en el MVP; otras funciones quedan fuera |
 | Código y planificación | GitHub + GitHub Projects | Repositorio, issues, historias y tablero | Plan gratuito actual |
 
 ### Arquitectura inicial aprobada
@@ -149,7 +150,8 @@ Las ramas posteriores a “continuar hacia carta” aún deben dividirse y defin
 Cliente → WhatsApp Cloud API → Cloudflare Worker → reglas deterministas
                                              ├→ OpenAI, solo para texto libre
                                              ├→ Google Maps, solo para despacho
-                                             └→ Cloudflare D1
+                                             ├→ Cloudflare D1
+                                             └→ Panel mínimo de la sucursal
 ```
 
 No se usará n8n inicialmente. Aunque puede autohospedarse, agrega servidor, actualizaciones y otra pieza operativa. Podrá reconsiderarse si aparecen automatizaciones externas complejas.
@@ -189,12 +191,13 @@ La carta de Toliv es una referencia dinámica, no una fuente técnica congelada.
 - Tiempo de preparación y última hora válida para programar un retiro.
 - Zonas y tarifas de despacho.
 - Disponibilidad y actualización del stock por sucursal.
-- Formato definitivo del mensaje enviado a la sucursal.
+- Contenido definitivo de la notificación mostrada a la sucursal.
 - Comportamiento si la sucursal no responde.
 - Tiempo máximo que el cliente esperará la aceptación.
 - Método de aviso, aceptación y reasignación para repartidores después del MVP.
 - Cantidad real de grupos de repartidores y participantes.
-- Roles, pantallas y estados del futuro dashboard operativo.
+- Acceso y separación de sucursales dentro del panel mínimo.
+- Roles, pantallas y estados de un panel operativo posterior.
 - Reglas para cancelar, modificar, duplicar o abandonar un pedido.
 - Feriados, cierres excepcionales y cambios manuales de horario.
 - Momento y condiciones para derivar la conversación a una persona.
@@ -243,6 +246,6 @@ La carta de Toliv es una referencia dinámica, no una fuente técnica congelada.
 
 - Implementar el chatbot.
 - Configurar cuentas, números, APIs o infraestructura.
-- Diseñar el dashboard operativo.
+- Diseñar un dashboard operativo completo más allá de aceptar y rechazar.
 - Resolver cualquiera de las decisiones pendientes.
 - Convertir la carta Toliv en catálogo productivo.
