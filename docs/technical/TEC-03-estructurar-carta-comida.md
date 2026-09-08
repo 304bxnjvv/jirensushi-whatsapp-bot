@@ -157,9 +157,17 @@ La composición es fija.
 | $20.000 | 40 | 10 Pollo Teriyaki; 10 Kanikama; 10 Camarón; 10 Salmón |
 | $25.000 | 50 | 10 Pollo Teriyaki; 10 Kanikama; 10 Camarón; 10 Salmón; 10 Pulpo |
 
+## Categoría 7 — Tablas frías
+
+La composición es fija.
+
+| Precio | Total de piezas | Composición mostrada |
+|---:|---:|---|
+| $12.000 | 20 | 10 Avocado Palmito; 10 California Camarón |
+| $15.000 | 30 | 10 Avocado Palmito; 10 California Camarón; 10 Cheese Teriyaki |
+
 ## Categorías pendientes de transcripción y aprobación
 
-- Tablas frías.
 - Tablas mixtas.
 
 ## Pendiente posterior a la transcripción
