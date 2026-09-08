@@ -20,6 +20,8 @@ Convertir la carta oficial entregada en imágenes a datos estructurados que el b
 - D1 no almacenará la carta durante el MVP; se reservará para conversaciones y pedidos.
 - Categorías y productos usarán identificadores legibles y estables en formato `slug`, por ejemplo `rolls-sin-arroz`, `avo-furay` y `tabla-mixta-15000`.
 - El identificador no debe depender del nombre mostrado después de su creación.
+- Los precios se guardarán como números enteros en pesos chilenos, por ejemplo `11900`.
+- El formato visible con signo y separador, por ejemplo `$11.900`, se genera al responder al cliente y no se guarda como texto.
 
 ## Orden aprobado de categorías
 
