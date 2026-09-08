@@ -15,6 +15,9 @@ Convertir la carta oficial entregada en imágenes a datos estructurados que el b
 - Se usan las siete imágenes entregadas como fuente actual.
 - Los nombres, cantidades, ingredientes y precios se registran tal como aparecen en las imágenes.
 - Si una imagen no muestra un dato, ese dato queda vacío; no se completa mediante suposición.
+- La carta del MVP se almacenará en un archivo JSON versionado dentro del backend.
+- Cambiar la carta requerirá modificar el JSON y desplegar nuevamente.
+- D1 no almacenará la carta durante el MVP; se reservará para conversaciones y pedidos.
 
 ## Orden aprobado de categorías
 
@@ -185,8 +188,8 @@ Las ocho categorías de comida fueron transcritas. Falta validar el conjunto com
 
 ## Pendiente posterior a la transcripción
 
-- Definir estructura de datos final.
 - Definir identificadores estables de productos y categorías.
+- Definir estructura de datos final del JSON.
 - Definir cómo representar opciones de proteína.
 - Definir cómo representar ingredientes removibles, reemplazables y adicionales.
 - Definir recargos de agregados y reemplazos.
