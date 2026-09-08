@@ -82,9 +82,30 @@ Cada corte cuesta **$8.990** y requiere elegir exactamente una proteína. La can
 
 Además de la proteína interior, el cliente debe elegir si el exterior lleva salmón o camarón.
 
+## Categoría 3 — Rolls sin arroz
+
+Todos cuestan **$11.900**. La cantidad de piezas no aparece indicada en la imagen.
+
+| Producto | Relleno mostrado | Envuelto / preparación mostrada | Precio |
+|---|---|---|---:|
+| Avo Maguro | Queso Crema, Cebollín, Palmito y Atún | Envuelto en Palta | $11.900 |
+| Avo Furay | Queso Crema, Palmito, Pimentón y Salmón Furay | Envuelto en Palta | $11.900 |
+| Cheese Furay | Pollo Teriyaki, Palta, Cebollín y Camarón | Envuelto en Queso Furay | $11.900 |
+| Tako Cheese | Palta, Cebollín, Pulpo y Champiñón Furay | Envuelto en Queso Crema | $11.900 |
+| Eby Furay | Queso Crema, Palta, Cebollín y Salmón | Envuelto en Camarón Furay | $11.900 |
+| Kyuri Rolls | Queso Crema, Palta, Salmón y Camarón | Envuelto en Pepino | $11.900 |
+| Kurosaki Rolls | Queso Crema, Palta, Pollo Teriyaki y Cebollín | Envuelto en Plátano Furay | $11.900 |
+| Maguro Sake | Queso Crema, Palta, Pimentón y Salmón | Envuelto en Atún | $11.900 |
+| Maguro Furay | Queso Crema, Palta, Cebollín y Camarón Furay | Envuelto en Atún Furay | $11.900 |
+| Sake Furay | Queso Crema, Palta, Pimentón y Camarón | Envuelto en Salmón Furay | $11.900 |
+| Veggie | Palta, Palmito, Cebollín y Champiñón Furay | Envuelto en Queso Crema | $11.900 |
+| Takeshi Rolls | Atún, Camarón Furay, Queso Crema y Palta | Envuelto en Pepino, bañado en salsa acevichada | $11.900 |
+| Kempachi Rolls | Queso Crema, Champiñón Furay, Camarón, Palta y Cebollín | Envuelto en Salmón flameado | $11.900 |
+| Hiroshi Rolls | Queso Crema, Palta, Masago, Camarón y Pollo Teriyaki | Envuelto en Plátano frito | $11.900 |
+| Avo Teriyaki | Queso Crema, Pimentón Furay, Plátano frito y Pollo Teriyaki | Envuelto en Palta | $11.900 |
+
 ## Categorías pendientes de transcripción y aprobación
 
-- Rolls sin arroz.
 - Rolls premium con arroz.
 - Tablas vegetarianas.
 - Tablas calientes.
