@@ -44,13 +44,14 @@ Después de agregar un producto mediante las historias posteriores, el bot vuelv
 - La comparación por texto ignora mayúsculas, minúsculas y tildes.
 - El bot tolera errores menores solamente cuando existe una única coincidencia clara.
 - Si la coincidencia es ambigua, no selecciona categoría ni producto.
+- Si no existe una coincidencia clara, pregunta nuevamente qué desea ver y vuelve a mostrar la lista general de categorías.
 - Tras agregar un producto, se vuelve a la lista general de categorías.
 - Los tragos no aparecen en el MVP.
 - La fuente de datos es el JSON definido en [TEC-03](../technical/TEC-03-estructurar-carta-comida.md).
 
 ## Pendiente de definición
 
-- Respuesta cuando una categoría o producto no se reconoce.
+- Texto exacto cuando una categoría o producto no se reconoce.
 - Acciones disponibles después de desplegar una categoría.
 - Casos de uso y criterios de aceptación finales.
 
