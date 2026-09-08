@@ -34,6 +34,10 @@ Después de agregar un producto mediante las historias posteriores, el bot vuelv
 - El bot muestra primero las ocho categorías, no todos los productos juntos.
 - Al seleccionar una categoría, despliega solamente sus productos.
 - Cada producto desplegado muestra inmediatamente su nombre y precio.
+- La lista de categorías contiene las ocho categorías en una sola página.
+- Los productos se muestran en páginas de hasta ocho productos.
+- Cuando corresponda, la lista reserva filas para `Anterior` y `Siguiente`, respetando el máximo de diez filas de WhatsApp.
+- Cambiar de página no modifica el carrito ni selecciona un producto.
 - Categorías y productos conservan el orden definido en TEC-03.
 - El cliente puede seleccionar mediante controles de WhatsApp o escribir libremente.
 - Si el cliente escribe directamente el nombre de un producto reconocido, el bot puede abrir ese producto sin obligarlo a navegar categorías.
@@ -43,7 +47,6 @@ Después de agregar un producto mediante las historias posteriores, el bot vuelv
 
 ## Pendiente de definición
 
-- Forma de dividir categorías que superen el límite de opciones de WhatsApp.
 - Respuesta cuando una categoría o producto no se reconoce.
 - Acciones disponibles después de desplegar una categoría.
 - Casos de uso y criterios de aceptación finales.
