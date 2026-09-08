@@ -20,12 +20,13 @@ para decidir si deseo agregarlo al pedido.
 - No inventa cantidad, ingrediente ni preparación cuando TEC-03 no contiene ese dato.
 - El producto no se agrega automáticamente al carrito.
 - Después del detalle, el flujo continúa hacia HU-06 para elegir cantidad y personalización.
+- Si el cliente decide no continuar, vuelve a la lista general de categorías de HU-04.
+- Volver desde el detalle no modifica el carrito.
 - Los datos provienen únicamente del JSON definido en TEC-03.
 
 ## Pendiente de definición
 
 - Texto y formato del detalle.
-- Acción para volver sin agregar.
 - Casos de uso y criterios de aceptación finales.
 
 ## Fuera de alcance
