@@ -16,6 +16,8 @@ para agregar al carrito exactamente lo que necesito.
 - El bot pregunta la cantidad antes de agregar el producto.
 - Para cantidad muestra botones `1`, `2` y `3`.
 - El cliente también puede escribir otra cantidad en texto libre.
+- El bot no impone una cantidad máxima por producto.
+- La sucursal conserva la posibilidad de rechazar el pedido desde el panel si no puede preparar la cantidad solicitada.
 - El cliente puede quitar, reemplazar y agregar ingredientes.
 - Los productos con grupos obligatorios deben completar esas elecciones.
 - La composición de las tablas es fija: no se puede cambiar un corte por otro.
@@ -26,7 +28,6 @@ para agregar al carrito exactamente lo que necesito.
 ## Pendiente de definición
 
 - Validación de cantidades escritas.
-- Cantidad máxima por producto.
 - Orden entre elecciones obligatorias y personalización.
 - Forma conversacional de quitar, reemplazar y agregar ingredientes.
 - Confirmación previa a agregar al carrito.
