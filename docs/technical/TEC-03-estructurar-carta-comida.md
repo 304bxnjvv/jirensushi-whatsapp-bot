@@ -166,9 +166,22 @@ La composición es fija.
 | $12.000 | 20 | 10 Avocado Palmito; 10 California Camarón |
 | $15.000 | 30 | 10 Avocado Palmito; 10 California Camarón; 10 Cheese Teriyaki |
 
-## Categorías pendientes de transcripción y aprobación
+## Categoría 8 — Tablas mixtas
 
-- Tablas mixtas.
+La composición es fija.
+
+| Precio | Total de piezas | Composición mostrada |
+|---:|---:|---|
+| $15.000 | 30 | 10 Avocado Palmito; 10 California Camarón; 10 Panko Teriyaki |
+| $20.000 | 40 | 10 Avocado Palmito; 10 California Camarón; 10 Panko Teriyaki; 10 Panko Kanikama |
+| $25.000 | 50 | 10 Avocado Palmito; 10 California Camarón; 10 Panko Teriyaki; 10 Panko Kanikama; 10 Cheese Teriyaki |
+| $30.000 | 60 | 10 Avocado Palmito; 10 California Camarón; 10 Panko Teriyaki; 10 Panko Kanikama; 10 Cheese Teriyaki; 10 Panko Camarón |
+| $35.000 | 80 | 10 Avocado Palmito; 10 California Camarón; 10 Panko Teriyaki; 10 Panko Kanikama; 10 Cheese Teriyaki; 10 Panko Camarón; 10 Hosomaki Salmón Furay; 10 California Palmito |
+| $42.000 | 100 | 10 Avocado Palmito; 10 California Camarón; 10 Panko Teriyaki; 10 Panko Kanikama; 10 Cheese Teriyaki; 10 Panko Camarón; 10 Hosomaki Salmón Furay; 10 California Palmito; 10 Camarón Furay; 10 Gyozas Salteadas |
+
+## Transcripción
+
+Las ocho categorías de comida fueron transcritas. Falta validar el conjunto completo y definir su estructura técnica antes de considerar TEC-03 lista para desarrollo.
 
 ## Pendiente posterior a la transcripción
 
