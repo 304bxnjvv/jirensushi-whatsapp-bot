@@ -2,7 +2,7 @@
 
 **Área:** Backend  
 **Tipo:** Tarea técnica habilitadora  
-**Estado:** En refinamiento; no lista para desarrollo
+**Estado:** Refinada; lista para desarrollo
 
 ## Objetivo
 
@@ -202,11 +202,52 @@ La composición es fija.
 
 ## Transcripción
 
-Las ocho categorías de comida fueron transcritas. Falta validar el conjunto completo y definir su estructura técnica antes de considerar TEC-03 lista para desarrollo.
+Las ocho categorías de comida fueron transcritas y su estructura técnica quedó aprobada.
 
-## Pendiente posterior a la transcripción
+## Esquema JSON aprobado
 
-- Definir estructura de datos final del JSON.
-- Definir cómo representar ingredientes removibles, reemplazables y adicionales.
-- Definir recargos de agregados y reemplazos.
-- Validar la transcripción completa antes de cargarla al bot.
+### Catálogo
+
+- `currency`: `CLP`.
+- `categories`: lista ordenada de categorías.
+
+### Categoría
+
+- `id`: slug estable.
+- `name`: nombre visible.
+- `order`: posición aprobada.
+- `products`: lista ordenada de productos.
+
+### Producto
+
+- `id`: slug estable.
+- `name`: nombre visible.
+- `order`: posición dentro de la categoría.
+- `price`: precio entero en CLP.
+- `displayQuantity`: cantidad impresa en la carta; queda `null` si no aparece.
+- `description`: texto original de la carta.
+- `ingredients`: lista estructurada; queda `[]` si no corresponde o no aparece.
+- `preparation`: lista estructurada; queda `[]` si no corresponde o no aparece.
+- `optionGroups`: elecciones obligatorias; queda `[]` si no existen.
+- `components`: cortes que forman una tabla; queda `[]` para productos individuales.
+
+## Criterios de aceptación
+
+- El archivo es JSON válido y puede cargarse sin transformación manual.
+- Moneda declarada como `CLP` y precios almacenados como enteros.
+- Contiene exactamente las ocho categorías aprobadas, en el orden aprobado.
+- Productos respetan nombres, orden, cantidades, ingredientes, preparaciones y precios transcritos.
+- No contiene tragos ni información no visible en las fuentes.
+- Todos los IDs de categorías y productos son únicos y estables.
+- Todo campo ausente en la imagen se conserva vacío según el esquema; no se inventa.
+- Cortes individuales incluyen grupo obligatorio de proteína.
+- Rainbow Rolls incluye elección obligatoria de exterior salmón o camarón.
+- Tabla vegetariana de $25.000 incluye elección obligatoria de Palmito o Pimentón.
+- Tablas incluyen sus componentes y cantidades; su composición permanece fija.
+- No existe stock ni disponibilidad por sucursal en el JSON del MVP.
+- Una prueba automatizada valida estructura, unicidad, precios y elecciones obligatorias.
+
+## Dependencias posteriores
+
+- HU-06 definirá cómo quitar, reemplazar y agregar ingredientes.
+- HU-06 definirá los recargos cuando el negocio entregue esa información.
