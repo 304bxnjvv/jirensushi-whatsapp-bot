@@ -60,6 +60,8 @@ flowchart TD
     N --> O{Sucursal responde ACEPTADO}
     O -->|Sí| P[Confirmar definitivamente al cliente]
     O -->|No, faltan ingredientes| Q[Informar que el pedido no puede aceptarse]
+    Q --> R[Cliente modifica el pedido]
+    R --> M
 ```
 
 Las ramas posteriores a “continuar hacia carta” aún deben dividirse y definirse mediante historias pequeñas.
@@ -123,8 +125,9 @@ Las ramas posteriores a “continuar hacia carta” aún deben dividirse y defin
 - El pedido queda `Pendiente de aceptación` mientras la sucursal no responda.
 - La respuesta `ACEPTADO` de la sucursal autoriza al bot a confirmar definitivamente al cliente.
 - Si la sucursal rechaza por falta de ingredientes, el bot informa al cliente que el pedido no puede aceptarse porque no están disponibles los ingredientes necesarios.
+- Después del rechazo, el cliente puede modificar el pedido y enviarlo nuevamente a la sucursal para aceptación.
 - No se requiere panel operativo para este proceso durante el MVP.
-- El comportamiento posterior al rechazo y ante falta de respuesta todavía debe definirse.
+- El comportamiento ante falta de respuesta todavía debe definirse.
 
 ## Tecnologías aprobadas
 
@@ -186,7 +189,7 @@ La carta de Toliv es una referencia dinámica, no una fuente técnica congelada.
 - Zonas y tarifas de despacho.
 - Disponibilidad y actualización del stock por sucursal.
 - Formato definitivo del mensaje enviado a la sucursal.
-- Comportamiento posterior si la sucursal rechaza el pedido.
+- Información que la sucursal debe entregar al rechazar, como productos o ingredientes faltantes.
 - Comportamiento si la sucursal no responde.
 - Tiempo máximo que el cliente esperará la aceptación.
 - Método de aviso, aceptación y reasignación para repartidores después del MVP.
