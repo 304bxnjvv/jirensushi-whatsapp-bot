@@ -25,6 +25,8 @@ Instagram y Taplink serán puntos de entrada hacia ese WhatsApp. El MVP atiende 
 - Actualmente la persona del local publica el despacho en un grupo de repartidores y quien quiere tomarlo lo acepta.
 - Se asume, todavía sin confirmación, que existe un grupo de repartidores por sucursal.
 - PedidosYa también recibe pedidos, pero es un canal separado del chatbot.
+- En el MVP, el bot enviará cada pedido al número de WhatsApp actual de la sucursal asignada.
+- El cliente debe esperar hasta que la sucursal responda `ACEPTADO`; recién entonces recibe la confirmación definitiva.
 - El futuro panel operativo no está descartado. Debe mostrar pedidos listos para preparar y podría ayudar a coordinar repartidores.
 - La alternativa temporal de dejar pedidos en un chat fijado fue mencionada, pero no aprobada como solución.
 
@@ -54,7 +56,9 @@ flowchart TD
     K --> L[Continuar hacia carta]
     H --> M[Armar y confirmar pedido]
     L --> M
-    M --> N[Pedido listo para preparar]
+    M --> N[Enviar pedido al WhatsApp de la sucursal]
+    N --> O{Sucursal responde ACEPTADO}
+    O -->|Sí| P[Confirmar definitivamente al cliente]
 ```
 
 Las ramas posteriores a “continuar hacia carta” aún deben dividirse y definirse mediante historias pequeñas.
@@ -93,6 +97,7 @@ Las ramas posteriores a “continuar hacia carta” aún deben dividirse y defin
 - El valor del despacho depende de zonas; zonas y precios quedan pendientes.
 - La forma exacta de avisar y asignar al repartidor queda pendiente.
 - La API oficial de WhatsApp no debe suponerse capaz de publicar en los grupos actuales. Se evaluarán avisos individuales y/o panel de repartidores en una etapa posterior.
+- Durante el MVP, después de aceptar el pedido, la sucursal continuará coordinando manualmente con su grupo de repartidores.
 
 ## Carta, precios y stock
 
@@ -109,6 +114,15 @@ Las ramas posteriores a “continuar hacia carta” aún deben dividirse y defin
 - No habrá pago en línea en esta etapa.
 - Para retiro se pide el nombre del cliente; el teléfono se obtiene desde WhatsApp.
 - Para despacho se contempla nombre, dirección completa y referencia opcional.
+
+## Entrega y aceptación del pedido
+
+- El bot envía el pedido cerrado al WhatsApp actual de la sucursal seleccionada o asignada.
+- El mensaje debe contener los datos necesarios para preparar el pedido.
+- El pedido queda `Pendiente de aceptación` mientras la sucursal no responda.
+- La respuesta `ACEPTADO` de la sucursal autoriza al bot a confirmar definitivamente al cliente.
+- No se requiere panel operativo para este proceso durante el MVP.
+- El comportamiento ante rechazo o falta de respuesta todavía debe definirse.
 
 ## Tecnologías aprobadas
 
@@ -169,7 +183,10 @@ La carta de Toliv es una referencia dinámica, no una fuente técnica congelada.
 - Tiempo de preparación y última hora válida para programar un retiro.
 - Zonas y tarifas de despacho.
 - Disponibilidad y actualización del stock por sucursal.
-- Método de aviso, aceptación y reasignación para repartidores.
+- Formato definitivo del mensaje enviado a la sucursal.
+- Comportamiento si la sucursal rechaza el pedido o no responde.
+- Tiempo máximo que el cliente esperará la aceptación.
+- Método de aviso, aceptación y reasignación para repartidores después del MVP.
 - Cantidad real de grupos de repartidores y participantes.
 - Roles, pantallas y estados del futuro dashboard operativo.
 - Reglas para cancelar, modificar, duplicar o abandonar un pedido.
