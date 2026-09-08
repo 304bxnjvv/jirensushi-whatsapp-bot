@@ -28,6 +28,7 @@ para agregar al carrito exactamente lo que necesito.
 - Ninguna modificación queda confirmada solo por haber sido interpretada; el cliente debe aprobar el resumen.
 - Después del resumen de cada unidad, muestra `Confirmar unidad`, `Modificar` y `Cancelar producto`.
 - `Modificar` permite corregir las elecciones o modificaciones de la unidad actual antes de confirmarla.
+- La cancelación afecta solamente a la unidad actual; no elimina otras unidades ya configuradas del mismo producto.
 - Si alguna modificación no se entiende con seguridad, el bot no aplica ningún cambio parcial.
 - Ante interpretación incompleta o ambigua, pide al cliente escribir nuevamente todas las modificaciones de esa unidad.
 - Los productos con grupos obligatorios deben completar esas elecciones.
