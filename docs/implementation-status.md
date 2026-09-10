@@ -8,6 +8,9 @@ Aplicación implementada en la rama `feat/mvp-vina`. Bot y panel funcionan con S
 - Prueba de panel con API controlada: aceptación, protección contra HTML del cliente, conservación de borrador al actualizar, devolución humana y móvil.
 - Prueba integrada sin mocks: pedido de retiro completo → pendiente → aceptar con 45 minutos → entregado; mensajes y auditoría guardados; humano toma chat, bot calla, devuelve, cliente confirma cambios; CEO y móvil de 375/768 px.
 - Dependencias actualizadas a Wrangler 4.131.0; auditoría npm sin vulnerabilidades detectadas en esta revisión.
+- Verificación independiente en GitHub Actions (Node 24/Linux y Chromium): [ejecución aprobada](https://github.com/304bxnjvv/jirensushi-whatsapp-bot/actions/runs/34506291207).
+
+[Entrega para revisión: PR #24](https://github.com/304bxnjvv/jirensushi-whatsapp-bot/pull/24). `main` no se ha modificado. Las 22 historias activas están In Progress y se mantienen sus responsables; HU-11 permanece retirada.
 
 Esto acredita comportamiento local, no aprobación de Meta, disponibilidad del modelo, entrega real a teléfonos ni capacidad bajo carga productiva.
 
