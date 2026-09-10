@@ -1,0 +1,17 @@
+PRAGMA foreign_keys = ON;
+CREATE TABLE IF NOT EXISTS users(id TEXT PRIMARY KEY, username TEXT UNIQUE NOT NULL, password_hash TEXT NOT NULL, role TEXT NOT NULL CHECK(role IN ('local','ceo')));
+CREATE TABLE IF NOT EXISTS sessions(token_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE, created_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS rate_limits(key TEXT PRIMARY KEY, window_start INTEGER NOT NULL, attempts INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS settings(id INTEGER PRIMARY KEY CHECK(id=1), data TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS locks(key TEXT PRIMARY KEY, token TEXT NOT NULL, expires_at INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS conversations(phone TEXT PRIMARY KEY, mode TEXT NOT NULL, updated_at TEXT NOT NULL, version INTEGER NOT NULL, data TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS orders(id TEXT PRIMARY KEY, phone TEXT NOT NULL, status TEXT NOT NULL CHECK(status IN ('Pendiente','Aceptado','Rechazado','Entregado')), created_at TEXT NOT NULL, updated_at TEXT NOT NULL, version INTEGER NOT NULL, data TEXT NOT NULL);
+CREATE UNIQUE INDEX IF NOT EXISTS one_active_order ON orders(phone) WHERE status IN ('Pendiente','Aceptado');
+CREATE INDEX IF NOT EXISTS orders_status_time ON orders(status,created_at);
+CREATE TABLE IF NOT EXISTS messages(id TEXT PRIMARY KEY, phone TEXT NOT NULL, role TEXT NOT NULL, text TEXT NOT NULL, created_at TEXT NOT NULL);
+CREATE INDEX IF NOT EXISTS messages_phone ON messages(phone,created_at);
+CREATE TABLE IF NOT EXISTS inbox(id TEXT PRIMARY KEY, phone TEXT NOT NULL, data TEXT NOT NULL, state TEXT NOT NULL DEFAULT 'pending', created_at TEXT NOT NULL, error TEXT);
+CREATE TABLE IF NOT EXISTS outbox(id TEXT PRIMARY KEY, phone TEXT NOT NULL, text TEXT NOT NULL, reply TEXT NOT NULL, kind TEXT NOT NULL, state TEXT NOT NULL DEFAULT 'pending', created_at TEXT NOT NULL, next_attempt TEXT NOT NULL, attempts INTEGER NOT NULL DEFAULT 0, error TEXT, provider_id TEXT, simulated INTEGER NOT NULL DEFAULT 0);
+CREATE INDEX IF NOT EXISTS outbox_due ON outbox(state,next_attempt);
+CREATE TABLE IF NOT EXISTS audit(id INTEGER PRIMARY KEY AUTOINCREMENT, actor TEXT NOT NULL, action TEXT NOT NULL, target TEXT NOT NULL, detail TEXT NOT NULL, created_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS daily_stats(day TEXT PRIMARY KEY, delivered INTEGER NOT NULL, revenue INTEGER NOT NULL);

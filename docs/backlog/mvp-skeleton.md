@@ -21,10 +21,10 @@ Orden recomendado de ejecución/refinamiento.
 | 15 | HU-13 | Confirmar pedido completo | Backend · WhatsApp |
 | 16 | HU-14 | Acceder al panel | Frontend · Backend |
 | 17 | HU-15 | Ver/buscar pedidos | Frontend · Backend |
-| 18 | HU-16 | Aceptar/rechazar/entregar | Frontend · Backend |
+| 18 | HU-16 | Aceptar/rechazar pedido | Frontend · Backend |
 | 19 | HU-17 | Informar resultado | Backend · WhatsApp |
 | 20 | HU-18 | Reabrir rechazado | Backend · WhatsApp |
-| 21 | HU-19 | Gestionar cierre excepcional | Frontend · Backend |
+| 21 | HU-19 | Marcar pedido aceptado como entregado | Frontend · Backend |
 | 22 | HU-20 | Transferir conversación a humano | Frontend · Backend · WhatsApp |
 
 HU-11 retirada: MVP opera únicamente con Viña del Mar.
