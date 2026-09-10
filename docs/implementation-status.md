@@ -2,7 +2,7 @@
 
 ## Resultado verificable
 
-Aplicación implementada en la rama `feat/mvp-vina`. Bot y panel funcionan con SQLite local y simulador autenticado. Adaptadores Meta/OpenAI implementados con pruebas de protocolo; **servicios reales no conectados**.
+Aplicación implementada en la rama `feat/mvp-vina`. Bot y panel funcionan con SQLite local y simulador autenticado. El Worker productivo, D1 y la clave de OpenAI están configurados en Cloudflare: [panel del piloto](https://jiren-sushi-vina.barqodex.workers.dev). Adaptadores Meta/OpenAI implementados con pruebas de protocolo; **WhatsApp real aún no está conectado**.
 
 - `npm run check`: 80 pruebas aprobadas, TypeScript correcto y empaquetado de Worker correcto.
 - Prueba de panel con API controlada: aceptación, protección contra HTML del cliente, conservación de borrador al actualizar, devolución humana y móvil.
@@ -35,9 +35,9 @@ HU-11 fue retirada. HU-19 corresponde a **Entregado**, no a cierre excepcional. 
 
 ## Pendiente antes del piloto real
 
-1. Credenciales y recursos de Cloudflare/D1, usuarios productivos y secretos.
+1. Usuario CEO productivo, contraseña segura conservada por el negocio y evaluación de expresiones reales con el equipo.
 2. Aplicación/número de prueba Meta, webhook suscrito, permisos y plantilla de utilidad aprobada.
-3. Clave OpenAI, presupuesto y evaluación de expresiones reales con el equipo. Las pruebas de protocolo no demuestran calidad lingüística del modelo en vivo.
+3. Presupuesto y evaluación de expresiones reales con el equipo. Las pruebas de protocolo no demuestran calidad lingüística del modelo en vivo.
 4. Confirmar límites de cobertura y dirección oficial. No habilitar despacho real basándose solo en nombres de zonas provisionales.
 5. Prueba real de recepción/entrega, reconexión, ventanas de 24 horas, carga del local y aceptación de negocio.
 

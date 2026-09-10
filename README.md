@@ -2,7 +2,7 @@
 
 Bot de WhatsApp y panel interno para **una sucursal**. Retiro, despacho por zona, carta JSON, personalización por unidad, pedidos y atención humana. Sin sitio público, n8n, Google Maps API ni coordinación automática de repartidores.
 
-Implementación disponible para prueba local. **No está conectado a un WhatsApp real ni desplegado en producción.** Consulta [estado y cobertura de historias](docs/implementation-status.md).
+Implementación disponible localmente y desplegada para el piloto en [jiren-sushi-vina.barqodex.workers.dev](https://jiren-sushi-vina.barqodex.workers.dev). **Aún no está conectado a un WhatsApp real.** Consulta [estado y cobertura de historias](docs/implementation-status.md).
 
 ## Probar la aplicación
 
@@ -55,10 +55,10 @@ Los textos ambiguos pueden usar OpenAI; botones y reglas conocidas funcionan sin
 ## Antes de conectar servicios reales
 
 1. Confirmar dirección oficial y límites de las zonas con el local. Las tarifas iniciales son $2.500, $3.500 y $4.500; la cobertura exacta sigue pendiente.
-2. Iniciar sesión en la cuenta Cloudflare autorizada. Crear D1 `jiren`, colocar su identificador en `wrangler.jsonc` y aplicar migraciones remotas.
+2. Cloudflare/D1 ya está creado y migrado; el Worker está publicado en la dirección anterior.
 3. Crear usuarios propios de local y CEO con contraseñas únicas. No reutilizar cuentas de demostración.
-4. Configurar secretos Meta/OpenAI mediante el gestor de secretos de Cloudflare. No pegarlos en el chat ni guardarlos en Git.
-5. Desplegar, suscribir `/webhook` y verificar firma, número receptor, recepción y entrega con el número de prueba de Meta.
+4. `OPENAI_API_KEY` ya está configurado como secreto en Cloudflare. Configurar los secretos Meta mediante el gestor de secretos de Cloudflare. No pegarlos en el chat ni guardarlos en Git.
+5. Crear la aplicación de Meta, registrar el número de prueba, suscribir `/webhook` y verificar firma, número receptor, recepción y entrega.
 6. Aprobar y configurar la plantilla de utilidad para mensajes fuera de la ventana de 24 horas. Hacer piloto con el equipo antes de usar el número de Jiren.
 
 Configuración de secretos: `META_ACCESS_TOKEN`, `META_PHONE_NUMBER_ID`, `META_APP_SECRET`, `META_VERIFY_TOKEN`, `META_STATUS_TEMPLATE` y, para texto libre asistido, `OPENAI_API_KEY`. Modelo configurable mediante `OPENAI_MODEL`. El nombre de plantilla no implica aprobación de Meta.

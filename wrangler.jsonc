@@ -11,7 +11,7 @@
     {
       "binding": "DB",
       "database_name": "jiren",
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_id": "6e65f473-d0b6-4e32-b17a-a676bc5aae01",
       "migrations_dir": "migrations",
     },
   ],
