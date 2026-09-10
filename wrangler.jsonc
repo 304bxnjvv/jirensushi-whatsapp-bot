@@ -1,0 +1,26 @@
+{
+  "name": "jiren-sushi-vina",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-09",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*", "/webhook"],
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "jiren",
+      "database_id": "6e65f473-d0b6-4e32-b17a-a676bc5aae01",
+      "migrations_dir": "migrations",
+    },
+  ],
+  "vars": {
+    "APP_ENV": "production",
+    "OPENAI_MODEL": "gpt-4.1-mini",
+    "META_GRAPH_VERSION": "v23.0",
+  },
+  "triggers": {
+    "crons": ["* * * * *"],
+  },
+}

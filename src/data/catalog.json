@@ -1,0 +1,1502 @@
+{
+  "currency": "CLP",
+  "categories": [
+    {
+      "id": "appetizers",
+      "name": "Appetizers",
+      "order": 1,
+      "products": [
+        {
+          "id": "arrollados-primavera",
+          "name": "Arrollados Primavera",
+          "order": 1,
+          "price": 6990,
+          "displayQuantity": 6,
+          "description": "",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "arrollados-jamon-queso",
+          "name": "Arrollados Jamón, Queso",
+          "order": 2,
+          "price": 6990,
+          "displayQuantity": 6,
+          "description": "",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "atun-furay",
+          "name": "Atún Furay",
+          "order": 3,
+          "price": 6990,
+          "displayQuantity": 6,
+          "description": "",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "salmon-furay",
+          "name": "Salmón Furay",
+          "order": 4,
+          "price": 6990,
+          "displayQuantity": 6,
+          "description": "",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "pollo-teri-furay",
+          "name": "Pollo Teri Furay",
+          "order": 5,
+          "price": 6990,
+          "displayQuantity": 6,
+          "description": "",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "camaron-furay",
+          "name": "Camarón Furay",
+          "order": 6,
+          "price": 6990,
+          "displayQuantity": 6,
+          "description": "",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "nigiri-salmon",
+          "name": "Nigiri Salmón",
+          "order": 7,
+          "price": 6990,
+          "displayQuantity": 6,
+          "description": "",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "nigiri-camaron",
+          "name": "Nigiri Camarón",
+          "order": 8,
+          "price": 6990,
+          "displayQuantity": 6,
+          "description": "",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "nigiri-atun",
+          "name": "Nigiri Atún",
+          "order": 9,
+          "price": 6990,
+          "displayQuantity": 6,
+          "description": "",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "korokkes-de-pollo",
+          "name": "Korokkes de Pollo",
+          "order": 10,
+          "price": 6990,
+          "displayQuantity": 6,
+          "description": "",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "korokkes-de-salmon",
+          "name": "Korokkes de Salmón",
+          "order": 11,
+          "price": 6990,
+          "displayQuantity": 6,
+          "description": "",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "korokkes-de-camaron",
+          "name": "Korokkes de Camarón",
+          "order": 12,
+          "price": 6990,
+          "displayQuantity": 6,
+          "description": "",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "korokkes-de-atun",
+          "name": "Korokkes de Atún",
+          "order": 13,
+          "price": 6990,
+          "displayQuantity": 6,
+          "description": "",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "gyozas-salteadas",
+          "name": "Gyozas Salteadas",
+          "order": 14,
+          "price": 6990,
+          "displayQuantity": 10,
+          "description": "",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "gunkan-platano",
+          "name": "Gunkan Plátano",
+          "order": 15,
+          "price": 6990,
+          "displayQuantity": 6,
+          "description": "",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "papas-jiren",
+          "name": "Papas Jiren",
+          "order": 16,
+          "price": 6990,
+          "displayQuantity": null,
+          "description": "",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": []
+        }
+      ]
+    },
+    {
+      "id": "cortes-individuales",
+      "name": "Cortes individuales",
+      "order": 2,
+      "products": [
+        {
+          "id": "rainbow-rolls",
+          "name": "Rainbow Rolls",
+          "order": 1,
+          "price": 8990,
+          "displayQuantity": null,
+          "description": "Relleno: Queso Crema, Cebollín y Proteína. Envuelto en Palta + Salmón o Camarón.",
+          "ingredients": ["Queso Crema", "Cebollín"],
+          "preparation": ["Envuelto en Palta + Salmón o Camarón"],
+          "optionGroups": [
+            {
+              "id": "proteina",
+              "name": "Proteína",
+              "min": 1,
+              "max": 1,
+              "options": [
+                "Kanikama",
+                "Pollo Teriyaki",
+                "Palmito",
+                "Champiñón",
+                "Atún",
+                "Camarón",
+                "Salmón",
+                "Pulpo"
+              ]
+            },
+            {
+              "id": "exterior",
+              "name": "Exterior",
+              "min": 1,
+              "max": 1,
+              "options": ["Salmón", "Camarón"]
+            }
+          ],
+          "components": []
+        },
+        {
+          "id": "masago-rolls",
+          "name": "Masago Rolls",
+          "order": 2,
+          "price": 8990,
+          "displayQuantity": null,
+          "description": "Relleno: Queso Crema, Palta y Proteína. Envuelto en Masago.",
+          "ingredients": ["Queso Crema", "Palta"],
+          "preparation": ["Envuelto en Masago"],
+          "optionGroups": [
+            {
+              "id": "proteina",
+              "name": "Proteína",
+              "min": 1,
+              "max": 1,
+              "options": [
+                "Kanikama",
+                "Pollo Teriyaki",
+                "Palmito",
+                "Champiñón",
+                "Atún",
+                "Camarón",
+                "Salmón",
+                "Pulpo"
+              ]
+            }
+          ],
+          "components": []
+        },
+        {
+          "id": "platano-rolls",
+          "name": "Plátano Rolls",
+          "order": 3,
+          "price": 8990,
+          "displayQuantity": null,
+          "description": "Relleno: Queso Crema, Palta y Proteína. Envuelto en Plátano.",
+          "ingredients": ["Queso Crema", "Palta"],
+          "preparation": ["Envuelto en Plátano"],
+          "optionGroups": [
+            {
+              "id": "proteina",
+              "name": "Proteína",
+              "min": 1,
+              "max": 1,
+              "options": [
+                "Kanikama",
+                "Pollo Teriyaki",
+                "Palmito",
+                "Champiñón",
+                "Atún",
+                "Camarón",
+                "Salmón",
+                "Pulpo"
+              ]
+            }
+          ],
+          "components": []
+        },
+        {
+          "id": "panko-rolls",
+          "name": "Panko Rolls",
+          "order": 4,
+          "price": 8990,
+          "displayQuantity": null,
+          "description": "Relleno: Queso Crema, Palta y Proteína. Envuelto en Panko.",
+          "ingredients": ["Queso Crema", "Palta"],
+          "preparation": ["Envuelto en Panko"],
+          "optionGroups": [
+            {
+              "id": "proteina",
+              "name": "Proteína",
+              "min": 1,
+              "max": 1,
+              "options": [
+                "Kanikama",
+                "Pollo Teriyaki",
+                "Palmito",
+                "Champiñón",
+                "Atún",
+                "Camarón",
+                "Salmón",
+                "Pulpo"
+              ]
+            }
+          ],
+          "components": []
+        },
+        {
+          "id": "california-rolls",
+          "name": "California Rolls",
+          "order": 5,
+          "price": 8990,
+          "displayQuantity": null,
+          "description": "Relleno: Queso Crema, Palta y Proteína. Envuelto en Sésamo.",
+          "ingredients": ["Queso Crema", "Palta"],
+          "preparation": ["Envuelto en Sésamo"],
+          "optionGroups": [
+            {
+              "id": "proteina",
+              "name": "Proteína",
+              "min": 1,
+              "max": 1,
+              "options": [
+                "Kanikama",
+                "Pollo Teriyaki",
+                "Palmito",
+                "Champiñón",
+                "Atún",
+                "Camarón",
+                "Salmón",
+                "Pulpo"
+              ]
+            }
+          ],
+          "components": []
+        },
+        {
+          "id": "sake-rolls",
+          "name": "Sake Rolls",
+          "order": 6,
+          "price": 8990,
+          "displayQuantity": null,
+          "description": "Relleno: Queso Crema, Palta y Proteína. Envuelto en Salmón.",
+          "ingredients": ["Queso Crema", "Palta"],
+          "preparation": ["Envuelto en Salmón"],
+          "optionGroups": [
+            {
+              "id": "proteina",
+              "name": "Proteína",
+              "min": 1,
+              "max": 1,
+              "options": [
+                "Kanikama",
+                "Pollo Teriyaki",
+                "Palmito",
+                "Champiñón",
+                "Atún",
+                "Camarón",
+                "Salmón",
+                "Pulpo"
+              ]
+            }
+          ],
+          "components": []
+        },
+        {
+          "id": "maguro-rolls",
+          "name": "Maguro Rolls",
+          "order": 7,
+          "price": 8990,
+          "displayQuantity": null,
+          "description": "Relleno: Queso Crema, Palta y Proteína. Envuelto en Atún.",
+          "ingredients": ["Queso Crema", "Palta"],
+          "preparation": ["Envuelto en Atún"],
+          "optionGroups": [
+            {
+              "id": "proteina",
+              "name": "Proteína",
+              "min": 1,
+              "max": 1,
+              "options": [
+                "Kanikama",
+                "Pollo Teriyaki",
+                "Palmito",
+                "Champiñón",
+                "Atún",
+                "Camarón",
+                "Salmón",
+                "Pulpo"
+              ]
+            }
+          ],
+          "components": []
+        },
+        {
+          "id": "futomaki-rolls",
+          "name": "Futomaki Rolls",
+          "order": 8,
+          "price": 8990,
+          "displayQuantity": null,
+          "description": "Relleno: Queso Crema, Palta y Proteína. Envuelto en Alga Nori.",
+          "ingredients": ["Queso Crema", "Palta"],
+          "preparation": ["Envuelto en Alga Nori"],
+          "optionGroups": [
+            {
+              "id": "proteina",
+              "name": "Proteína",
+              "min": 1,
+              "max": 1,
+              "options": [
+                "Kanikama",
+                "Pollo Teriyaki",
+                "Palmito",
+                "Champiñón",
+                "Atún",
+                "Camarón",
+                "Salmón",
+                "Pulpo"
+              ]
+            }
+          ],
+          "components": []
+        },
+        {
+          "id": "cheese-rolls",
+          "name": "Cheese Rolls",
+          "order": 9,
+          "price": 8990,
+          "displayQuantity": null,
+          "description": "Relleno: Palta, Cebollín y Proteína. Envuelto en Queso Crema.",
+          "ingredients": ["Palta", "Cebollín"],
+          "preparation": ["Envuelto en Queso Crema"],
+          "optionGroups": [
+            {
+              "id": "proteina",
+              "name": "Proteína",
+              "min": 1,
+              "max": 1,
+              "options": [
+                "Kanikama",
+                "Pollo Teriyaki",
+                "Palmito",
+                "Champiñón",
+                "Atún",
+                "Camarón",
+                "Salmón",
+                "Pulpo"
+              ]
+            }
+          ],
+          "components": []
+        },
+        {
+          "id": "avocado-rolls",
+          "name": "Avocado Rolls",
+          "order": 10,
+          "price": 8990,
+          "displayQuantity": null,
+          "description": "Relleno: Queso Crema, Cebollín y Proteína. Envuelto en Palta.",
+          "ingredients": ["Queso Crema", "Cebollín"],
+          "preparation": ["Envuelto en Palta"],
+          "optionGroups": [
+            {
+              "id": "proteina",
+              "name": "Proteína",
+              "min": 1,
+              "max": 1,
+              "options": [
+                "Kanikama",
+                "Pollo Teriyaki",
+                "Palmito",
+                "Champiñón",
+                "Atún",
+                "Camarón",
+                "Salmón",
+                "Pulpo"
+              ]
+            }
+          ],
+          "components": []
+        }
+      ]
+    },
+    {
+      "id": "rolls-sin-arroz",
+      "name": "Rolls sin arroz",
+      "order": 3,
+      "products": [
+        {
+          "id": "avo-maguro",
+          "name": "Avo Maguro",
+          "order": 1,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Queso Crema, Cebollín, Palmito y Atún. Envuelto en Palta.",
+          "ingredients": ["Queso Crema", "Cebollín", "Palmito", "Atún"],
+          "preparation": ["Envuelto en Palta"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "avo-furay",
+          "name": "Avo Furay",
+          "order": 2,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Queso Crema, Palmito, Pimentón y Salmón Furay. Envuelto en Palta.",
+          "ingredients": ["Queso Crema", "Palmito", "Pimentón", "Salmón Furay"],
+          "preparation": ["Envuelto en Palta"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "cheese-furay",
+          "name": "Cheese Furay",
+          "order": 3,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Pollo Teriyaki, Palta, Cebollín y Camarón. Envuelto en Queso Furay.",
+          "ingredients": ["Pollo Teriyaki", "Palta", "Cebollín", "Camarón"],
+          "preparation": ["Envuelto en Queso Furay"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "tako-cheese",
+          "name": "Tako Cheese",
+          "order": 4,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Palta, Cebollín, Pulpo y Champiñón Furay. Envuelto en Queso Crema.",
+          "ingredients": ["Palta", "Cebollín", "Pulpo", "Champiñón Furay"],
+          "preparation": ["Envuelto en Queso Crema"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "eby-furay",
+          "name": "Eby Furay",
+          "order": 5,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Queso Crema, Palta, Cebollín y Salmón. Envuelto en Camarón Furay.",
+          "ingredients": ["Queso Crema", "Palta", "Cebollín", "Salmón"],
+          "preparation": ["Envuelto en Camarón Furay"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "kyuri-rolls",
+          "name": "Kyuri Rolls",
+          "order": 6,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Queso Crema, Palta, Salmón y Camarón. Envuelto en Pepino.",
+          "ingredients": ["Queso Crema", "Palta", "Salmón", "Camarón"],
+          "preparation": ["Envuelto en Pepino"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "kurosaki-rolls",
+          "name": "Kurosaki Rolls",
+          "order": 7,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Queso Crema, Palta, Pollo Teriyaki y Cebollín. Envuelto en Plátano Furay.",
+          "ingredients": ["Queso Crema", "Palta", "Pollo Teriyaki", "Cebollín"],
+          "preparation": ["Envuelto en Plátano Furay"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "maguro-sake",
+          "name": "Maguro Sake",
+          "order": 8,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Queso Crema, Palta, Pimentón y Salmón. Envuelto en Atún.",
+          "ingredients": ["Queso Crema", "Palta", "Pimentón", "Salmón"],
+          "preparation": ["Envuelto en Atún"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "maguro-furay",
+          "name": "Maguro Furay",
+          "order": 9,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Queso Crema, Palta, Cebollín y Camarón Furay. Envuelto en Atún Furay.",
+          "ingredients": ["Queso Crema", "Palta", "Cebollín", "Camarón Furay"],
+          "preparation": ["Envuelto en Atún Furay"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "sake-furay",
+          "name": "Sake Furay",
+          "order": 10,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Queso Crema, Palta, Pimentón y Camarón. Envuelto en Salmón Furay.",
+          "ingredients": ["Queso Crema", "Palta", "Pimentón", "Camarón"],
+          "preparation": ["Envuelto en Salmón Furay"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "veggie",
+          "name": "Veggie",
+          "order": 11,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Palta, Palmito, Cebollín y Champiñón Furay. Envuelto en Queso Crema.",
+          "ingredients": ["Palta", "Palmito", "Cebollín", "Champiñón Furay"],
+          "preparation": ["Envuelto en Queso Crema"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "takeshi-rolls",
+          "name": "Takeshi Rolls",
+          "order": 12,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Atún, Camarón Furay, Queso Crema y Palta. Envuelto en Pepino, bañado en salsa acevichada.",
+          "ingredients": ["Atún", "Camarón Furay", "Queso Crema", "Palta"],
+          "preparation": ["Envuelto en Pepino", "bañado en salsa acevichada"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "kempachi-rolls",
+          "name": "Kempachi Rolls",
+          "order": 13,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Queso Crema, Champiñón Furay, Camarón, Palta y Cebollín. Envuelto en Salmón flameado.",
+          "ingredients": [
+            "Queso Crema",
+            "Champiñón Furay",
+            "Camarón",
+            "Palta",
+            "Cebollín"
+          ],
+          "preparation": ["Envuelto en Salmón flameado"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "hiroshi-rolls",
+          "name": "Hiroshi Rolls",
+          "order": 14,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Queso Crema, Palta, Masago, Camarón y Pollo Teriyaki. Envuelto en Plátano frito.",
+          "ingredients": [
+            "Queso Crema",
+            "Palta",
+            "Masago",
+            "Camarón",
+            "Pollo Teriyaki"
+          ],
+          "preparation": ["Envuelto en Plátano frito"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "avo-teriyaki",
+          "name": "Avo Teriyaki",
+          "order": 15,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Queso Crema, Pimentón Furay, Plátano frito y Pollo Teriyaki. Envuelto en Palta.",
+          "ingredients": [
+            "Queso Crema",
+            "Pimentón Furay",
+            "Plátano frito",
+            "Pollo Teriyaki"
+          ],
+          "preparation": ["Envuelto en Palta"],
+          "optionGroups": [],
+          "components": []
+        }
+      ]
+    },
+    {
+      "id": "rolls-premium-con-arroz",
+      "name": "Rolls premium con arroz",
+      "order": 4,
+      "products": [
+        {
+          "id": "hot-rolls",
+          "name": "Hot Rolls",
+          "order": 1,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Pollo Teriyaki, Palta, Cebollín). Envuelto en queso crema y bañado con salsa spicy, coronado con camarón furay, glaseado con salsa unagui.",
+          "ingredients": ["Pollo Teriyaki", "Palta", "Cebollín"],
+          "preparation": [
+            "Envuelto en queso crema",
+            "bañado con salsa spicy",
+            "coronado con camarón furay",
+            "glaseado con salsa unagui"
+          ],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "jiren-rolls",
+          "name": "Jiren Rolls",
+          "order": 2,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Queso Crema, Pollo Teriyaki y Camarón). Envuelto en plátano y bañado con topping Jiren.",
+          "ingredients": ["Queso Crema", "Pollo Teriyaki", "Camarón"],
+          "preparation": ["Envuelto en plátano", "bañado con topping Jiren"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "dabura-rolls",
+          "name": "Dabura Rolls",
+          "order": 3,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Queso Crema, Palta, Palmito). Envuelto en Salmón flameado, coronado con Camarón furay, bañado con salsa acevichada.",
+          "ingredients": ["Queso Crema", "Palta", "Palmito"],
+          "preparation": [
+            "Envuelto en Salmón flameado",
+            "coronado con Camarón furay",
+            "bañado con salsa acevichada"
+          ],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "himura-rolls",
+          "name": "Himura Rolls",
+          "order": 4,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Queso Crema, Pollo Teriyaki y Palta). Envuelto en plátano furay, coronado con queso cheddar gratinado, glaseado con salsa unagui.",
+          "ingredients": ["Queso Crema", "Pollo Teriyaki", "Palta"],
+          "preparation": [
+            "Envuelto en plátano furay",
+            "coronado con queso cheddar gratinado",
+            "glaseado con salsa unagui"
+          ],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "akira-rolls",
+          "name": "Akira Rolls",
+          "order": 5,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Palmito, Palta, Camarón). Envuelto en queso crema flameado, bañado con tartar de salmón.",
+          "ingredients": ["Palmito", "Palta", "Camarón"],
+          "preparation": [
+            "Envuelto en queso crema flameado",
+            "bañado con tartar de salmón"
+          ],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "acevichado-rolls",
+          "name": "Acevichado Rolls",
+          "order": 6,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Queso Crema, Palta, Pulpo). Envuelto en alga nori y bañado con ceviche salmón.",
+          "ingredients": ["Queso Crema", "Palta", "Pulpo"],
+          "preparation": ["Envuelto en alga nori", "bañado con ceviche salmón"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "tropical-rolls",
+          "name": "Tropical Rolls",
+          "order": 7,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Queso Crema, Palta, Salmón). Envuelto en mango, bañado con salsa acevichada.",
+          "ingredients": ["Queso Crema", "Palta", "Salmón"],
+          "preparation": ["Envuelto en mango", "bañado con salsa acevichada"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "kirito-rolls",
+          "name": "Kirito Rolls",
+          "order": 8,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Queso Crema, Palta, Champiñón Furay). Envuelto en plátano frito, bañado en topping de champiñones.",
+          "ingredients": ["Queso Crema", "Palta", "Champiñón Furay"],
+          "preparation": [
+            "Envuelto en plátano frito",
+            "bañado en topping de champiñones"
+          ],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "kenji-rolls",
+          "name": "Kenji Rolls",
+          "order": 9,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Camarón Furay y Queso Crema). Envuelto en nori, coronado con tartar de salmón flameado y toques de salsa Spicy.",
+          "ingredients": ["Camarón Furay", "Queso Crema"],
+          "preparation": [
+            "Envuelto en nori",
+            "coronado con tartar de salmón flameado",
+            "toques de salsa Spicy"
+          ],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "tenshin-rolls",
+          "name": "Tenshin Rolls",
+          "order": 10,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Queso Crema, Palta y Camarón Furay). Envuelto en atún, coronado con atún furay, bañado en salsa de maracuyá.",
+          "ingredients": ["Queso Crema", "Palta", "Camarón Furay"],
+          "preparation": [
+            "Envuelto en atún",
+            "coronado con atún furay",
+            "bañado en salsa de maracuyá"
+          ],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "wakame-rolls",
+          "name": "Wakame Rolls",
+          "order": 11,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Queso Crema, Cebollín, Salmón Furay). Envuelto en Palta, bañado con topping wakame.",
+          "ingredients": ["Queso Crema", "Cebollín", "Salmón Furay"],
+          "preparation": ["Envuelto en Palta", "bañado con topping wakame"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "huancaina-rolls",
+          "name": "Huancaina Rolls",
+          "order": 12,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Queso Crema, Palta, Cebollín, Camarón Furay). Envuelto en alga nori y bañado en salsa huancaína.",
+          "ingredients": ["Queso Crema", "Palta", "Cebollín", "Camarón Furay"],
+          "preparation": ["Envuelto en alga nori", "bañado en salsa huancaína"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "veggie-rolls",
+          "name": "Veggie Rolls",
+          "order": 13,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Palmito, Palta, Cebollín). Envuelto en queso crema, bañado con salsa spicy, coronado con champiñón Furay, glaseado con salsa unagui.",
+          "ingredients": ["Palmito", "Palta", "Cebollín"],
+          "preparation": [
+            "Envuelto en queso crema",
+            "bañado con salsa spicy",
+            "coronado con champiñón Furay",
+            "glaseado con salsa unagui"
+          ],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "hit-rolls",
+          "name": "Hit Rolls",
+          "order": 14,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Queso Crema, Palta, Camarón). Envuelto en atún, bañado en salsa Mango, coronado con salmón furay.",
+          "ingredients": ["Queso Crema", "Palta", "Camarón"],
+          "preparation": [
+            "Envuelto en atún",
+            "bañado en salsa Mango",
+            "coronado con salmón furay"
+          ],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "whis-rolls",
+          "name": "Whis Rolls",
+          "order": 15,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Queso Crema, Salmón y Camarón). Envuelto en atún, bañado con salsa de maracuyá.",
+          "ingredients": ["Queso Crema", "Salmón", "Camarón"],
+          "preparation": ["Envuelto en atún", "bañado con salsa de maracuyá"],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "megumi-rolls",
+          "name": "Megumi Rolls",
+          "order": 16,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Queso Crema, Pimentón y Camarón). Envuelto en palta, bañado en topping ceviche y salsa acevichada.",
+          "ingredients": ["Queso Crema", "Pimentón", "Camarón"],
+          "preparation": [
+            "Envuelto en palta",
+            "bañado en topping ceviche y salsa acevichada"
+          ],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "ginyu-rolls",
+          "name": "Ginyu Rolls",
+          "order": 17,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Queso Crema, Masago, Kanikama y Salmón). Envuelto en salmón, bañado en salsa de aceituna y salsa acevichada.",
+          "ingredients": ["Queso Crema", "Masago", "Kanikama", "Salmón"],
+          "preparation": [
+            "Envuelto en salmón",
+            "bañado en salsa de aceituna y salsa acevichada"
+          ],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "bills-rolls",
+          "name": "Bills Rolls",
+          "order": 18,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Queso Crema, Palta, Camarón Furay). Envuelto en salmón flameado, bañado en topping de pulpo al olivo.",
+          "ingredients": ["Queso Crema", "Palta", "Camarón Furay"],
+          "preparation": [
+            "Envuelto en salmón flameado",
+            "bañado en topping de pulpo al olivo"
+          ],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "hiroko-rolls",
+          "name": "Hiroko Rolls",
+          "order": 19,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Salmón, Queso Crema y Palta). Envuelto en pepino, coronado con topping de atún marinado.",
+          "ingredients": ["Salmón", "Queso Crema", "Palta"],
+          "preparation": [
+            "Envuelto en pepino",
+            "coronado con topping de atún marinado"
+          ],
+          "optionGroups": [],
+          "components": []
+        },
+        {
+          "id": "karin-rolls",
+          "name": "Karin Rolls",
+          "order": 20,
+          "price": 11900,
+          "displayQuantity": null,
+          "description": "Relleno (Camarón Furay, Queso Crema y Cebollín). Envuelto en palta y salmón, bañado en salsa acevichada, coronado con masago.",
+          "ingredients": ["Camarón Furay", "Queso Crema", "Cebollín"],
+          "preparation": [
+            "Envuelto en palta y salmón",
+            "bañado en salsa acevichada",
+            "coronado con masago"
+          ],
+          "optionGroups": [],
+          "components": []
+        }
+      ]
+    },
+    {
+      "id": "tablas-vegetarianas",
+      "name": "Tablas vegetarianas",
+      "order": 5,
+      "products": [
+        {
+          "id": "tabla-vegetariana-12000",
+          "name": "Tabla vegetariana $12.000",
+          "order": 1,
+          "price": 12000,
+          "displayQuantity": 20,
+          "description": "10 Panko Champiñón; 10 Panko Pimentón",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": [
+            {
+              "quantity": 10,
+              "name": "Panko Champiñón"
+            },
+            {
+              "quantity": 10,
+              "name": "Panko Pimentón"
+            }
+          ]
+        },
+        {
+          "id": "tabla-vegetariana-15000",
+          "name": "Tabla vegetariana $15.000",
+          "order": 2,
+          "price": 15000,
+          "displayQuantity": 30,
+          "description": "10 Panko Champiñón; 10 Panko Pimentón; 10 California Palmito",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": [
+            {
+              "quantity": 10,
+              "name": "Panko Champiñón"
+            },
+            {
+              "quantity": 10,
+              "name": "Panko Pimentón"
+            },
+            {
+              "quantity": 10,
+              "name": "California Palmito"
+            }
+          ]
+        },
+        {
+          "id": "tabla-vegetariana-25000",
+          "name": "Tabla vegetariana $25.000",
+          "order": 3,
+          "price": 25000,
+          "displayQuantity": 50,
+          "description": "10 Panko Champiñón; 10 Panko Pimentón; 10 California Palmito; 10 Cheese Champiñón Furay; 10 Avocado Palmito o Pimentón",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [
+            {
+              "id": "avocado",
+              "name": "Relleno de las 10 piezas Avocado",
+              "min": 1,
+              "max": 1,
+              "options": ["Palmito", "Pimentón"]
+            }
+          ],
+          "components": [
+            {
+              "quantity": 10,
+              "name": "Panko Champiñón"
+            },
+            {
+              "quantity": 10,
+              "name": "Panko Pimentón"
+            },
+            {
+              "quantity": 10,
+              "name": "California Palmito"
+            },
+            {
+              "quantity": 10,
+              "name": "Cheese Champiñón Furay"
+            },
+            {
+              "quantity": 10,
+              "name": "Avocado Palmito o Pimentón"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tablas-calientes",
+      "name": "Tablas calientes",
+      "order": 6,
+      "products": [
+        {
+          "id": "tabla-caliente-12000",
+          "name": "Tabla caliente $12.000",
+          "order": 1,
+          "price": 12000,
+          "displayQuantity": 20,
+          "description": "10 Pollo Teriyaki; 10 Kanikama",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": [
+            {
+              "quantity": 10,
+              "name": "Pollo Teriyaki"
+            },
+            {
+              "quantity": 10,
+              "name": "Kanikama"
+            }
+          ]
+        },
+        {
+          "id": "tabla-caliente-15000",
+          "name": "Tabla caliente $15.000",
+          "order": 2,
+          "price": 15000,
+          "displayQuantity": 30,
+          "description": "10 Pollo Teriyaki; 10 Kanikama; 10 Camarón",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": [
+            {
+              "quantity": 10,
+              "name": "Pollo Teriyaki"
+            },
+            {
+              "quantity": 10,
+              "name": "Kanikama"
+            },
+            {
+              "quantity": 10,
+              "name": "Camarón"
+            }
+          ]
+        },
+        {
+          "id": "tabla-caliente-20000",
+          "name": "Tabla caliente $20.000",
+          "order": 3,
+          "price": 20000,
+          "displayQuantity": 40,
+          "description": "10 Pollo Teriyaki; 10 Kanikama; 10 Camarón; 10 Salmón",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": [
+            {
+              "quantity": 10,
+              "name": "Pollo Teriyaki"
+            },
+            {
+              "quantity": 10,
+              "name": "Kanikama"
+            },
+            {
+              "quantity": 10,
+              "name": "Camarón"
+            },
+            {
+              "quantity": 10,
+              "name": "Salmón"
+            }
+          ]
+        },
+        {
+          "id": "tabla-caliente-25000",
+          "name": "Tabla caliente $25.000",
+          "order": 4,
+          "price": 25000,
+          "displayQuantity": 50,
+          "description": "10 Pollo Teriyaki; 10 Kanikama; 10 Camarón; 10 Salmón; 10 Pulpo",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": [
+            {
+              "quantity": 10,
+              "name": "Pollo Teriyaki"
+            },
+            {
+              "quantity": 10,
+              "name": "Kanikama"
+            },
+            {
+              "quantity": 10,
+              "name": "Camarón"
+            },
+            {
+              "quantity": 10,
+              "name": "Salmón"
+            },
+            {
+              "quantity": 10,
+              "name": "Pulpo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tablas-frias",
+      "name": "Tablas frías",
+      "order": 7,
+      "products": [
+        {
+          "id": "tabla-fria-12000",
+          "name": "Tabla fria $12.000",
+          "order": 1,
+          "price": 12000,
+          "displayQuantity": 20,
+          "description": "10 Avocado Palmito; 10 California Camarón",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": [
+            {
+              "quantity": 10,
+              "name": "Avocado Palmito"
+            },
+            {
+              "quantity": 10,
+              "name": "California Camarón"
+            }
+          ]
+        },
+        {
+          "id": "tabla-fria-15000",
+          "name": "Tabla fria $15.000",
+          "order": 2,
+          "price": 15000,
+          "displayQuantity": 30,
+          "description": "10 Avocado Palmito; 10 California Camarón; 10 Cheese Teriyaki",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": [
+            {
+              "quantity": 10,
+              "name": "Avocado Palmito"
+            },
+            {
+              "quantity": 10,
+              "name": "California Camarón"
+            },
+            {
+              "quantity": 10,
+              "name": "Cheese Teriyaki"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tablas-mixtas",
+      "name": "Tablas mixtas",
+      "order": 8,
+      "products": [
+        {
+          "id": "tabla-mixta-15000",
+          "name": "Tabla mixta $15.000",
+          "order": 1,
+          "price": 15000,
+          "displayQuantity": 30,
+          "description": "10 Avocado Palmito; 10 California Camarón; 10 Panko Teriyaki",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": [
+            {
+              "quantity": 10,
+              "name": "Avocado Palmito"
+            },
+            {
+              "quantity": 10,
+              "name": "California Camarón"
+            },
+            {
+              "quantity": 10,
+              "name": "Panko Teriyaki"
+            }
+          ]
+        },
+        {
+          "id": "tabla-mixta-20000",
+          "name": "Tabla mixta $20.000",
+          "order": 2,
+          "price": 20000,
+          "displayQuantity": 40,
+          "description": "10 Avocado Palmito; 10 California Camarón; 10 Panko Teriyaki; 10 Panko Kanikama",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": [
+            {
+              "quantity": 10,
+              "name": "Avocado Palmito"
+            },
+            {
+              "quantity": 10,
+              "name": "California Camarón"
+            },
+            {
+              "quantity": 10,
+              "name": "Panko Teriyaki"
+            },
+            {
+              "quantity": 10,
+              "name": "Panko Kanikama"
+            }
+          ]
+        },
+        {
+          "id": "tabla-mixta-25000",
+          "name": "Tabla mixta $25.000",
+          "order": 3,
+          "price": 25000,
+          "displayQuantity": 50,
+          "description": "10 Avocado Palmito; 10 California Camarón; 10 Panko Teriyaki; 10 Panko Kanikama; 10 Cheese Teriyaki",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": [
+            {
+              "quantity": 10,
+              "name": "Avocado Palmito"
+            },
+            {
+              "quantity": 10,
+              "name": "California Camarón"
+            },
+            {
+              "quantity": 10,
+              "name": "Panko Teriyaki"
+            },
+            {
+              "quantity": 10,
+              "name": "Panko Kanikama"
+            },
+            {
+              "quantity": 10,
+              "name": "Cheese Teriyaki"
+            }
+          ]
+        },
+        {
+          "id": "tabla-mixta-30000",
+          "name": "Tabla mixta $30.000",
+          "order": 4,
+          "price": 30000,
+          "displayQuantity": 60,
+          "description": "10 Avocado Palmito; 10 California Camarón; 10 Panko Teriyaki; 10 Panko Kanikama; 10 Cheese Teriyaki; 10 Panko Camarón",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": [
+            {
+              "quantity": 10,
+              "name": "Avocado Palmito"
+            },
+            {
+              "quantity": 10,
+              "name": "California Camarón"
+            },
+            {
+              "quantity": 10,
+              "name": "Panko Teriyaki"
+            },
+            {
+              "quantity": 10,
+              "name": "Panko Kanikama"
+            },
+            {
+              "quantity": 10,
+              "name": "Cheese Teriyaki"
+            },
+            {
+              "quantity": 10,
+              "name": "Panko Camarón"
+            }
+          ]
+        },
+        {
+          "id": "tabla-mixta-35000",
+          "name": "Tabla mixta $35.000",
+          "order": 5,
+          "price": 35000,
+          "displayQuantity": 80,
+          "description": "10 Avocado Palmito; 10 California Camarón; 10 Panko Teriyaki; 10 Panko Kanikama; 10 Cheese Teriyaki; 10 Panko Camarón; 10 Hosomaki Salmón Furay; 10 California Palmito",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": [
+            {
+              "quantity": 10,
+              "name": "Avocado Palmito"
+            },
+            {
+              "quantity": 10,
+              "name": "California Camarón"
+            },
+            {
+              "quantity": 10,
+              "name": "Panko Teriyaki"
+            },
+            {
+              "quantity": 10,
+              "name": "Panko Kanikama"
+            },
+            {
+              "quantity": 10,
+              "name": "Cheese Teriyaki"
+            },
+            {
+              "quantity": 10,
+              "name": "Panko Camarón"
+            },
+            {
+              "quantity": 10,
+              "name": "Hosomaki Salmón Furay"
+            },
+            {
+              "quantity": 10,
+              "name": "California Palmito"
+            }
+          ]
+        },
+        {
+          "id": "tabla-mixta-42000",
+          "name": "Tabla mixta $42.000",
+          "order": 6,
+          "price": 42000,
+          "displayQuantity": 100,
+          "description": "10 Avocado Palmito; 10 California Camarón; 10 Panko Teriyaki; 10 Panko Kanikama; 10 Cheese Teriyaki; 10 Panko Camarón; 10 Hosomaki Salmón Furay; 10 California Palmito; 10 Camarón Furay; 10 Gyozas Salteadas",
+          "ingredients": [],
+          "preparation": [],
+          "optionGroups": [],
+          "components": [
+            {
+              "quantity": 10,
+              "name": "Avocado Palmito"
+            },
+            {
+              "quantity": 10,
+              "name": "California Camarón"
+            },
+            {
+              "quantity": 10,
+              "name": "Panko Teriyaki"
+            },
+            {
+              "quantity": 10,
+              "name": "Panko Kanikama"
+            },
+            {
+              "quantity": 10,
+              "name": "Cheese Teriyaki"
+            },
+            {
+              "quantity": 10,
+              "name": "Panko Camarón"
+            },
+            {
+              "quantity": 10,
+              "name": "Hosomaki Salmón Furay"
+            },
+            {
+              "quantity": 10,
+              "name": "California Palmito"
+            },
+            {
+              "quantity": 10,
+              "name": "Camarón Furay"
+            },
+            {
+              "quantity": 10,
+              "name": "Gyozas Salteadas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
