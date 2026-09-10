@@ -2,7 +2,7 @@
 
 **Área:** Backend  
 **Componente:** WhatsApp bot  
-**Estado:** En refinamiento; bloqueada por precios de agregados y reemplazos
+**Estado:** Refinada; lista para desarrollo
 
 ## Historia
 
@@ -29,6 +29,7 @@ para agregar al carrito exactamente lo que necesito.
 - Después del resumen de cada unidad, muestra `Confirmar unidad`, `Modificar` y `Cancelar unidad`.
 - `Modificar` permite corregir las elecciones o modificaciones de la unidad actual antes de confirmarla.
 - La cancelación afecta solamente a la unidad actual; no elimina otras unidades ya configuradas del mismo producto.
+- Después de cancelar una unidad, el bot continúa con la siguiente. Si se cancelan todas, vuelve a la lista general de categorías.
 - Si alguna modificación no se entiende con seguridad, el bot no aplica ningún cambio parcial.
 - Ante interpretación incompleta o ambigua, pide al cliente escribir nuevamente todas las modificaciones de esa unidad.
 - Los productos con grupos obligatorios deben completar esas elecciones.
@@ -41,15 +42,29 @@ para agregar al carrito exactamente lo que necesito.
 - Esa acción copia las elecciones obligatorias y modificaciones de la unidad inmediatamente anterior.
 - La composición de las tablas es fija: no se puede cambiar un corte por otro.
 - Solo se permiten elecciones de tabla mostradas explícitamente en TEC-03.
-- El producto se agrega al carrito únicamente después de completar cantidad, elecciones y personalización.
+- Quitar un ingrediente no tiene costo.
+- Agregar o reemplazar cobra el valor completo del modificador por unidad: pollo, palmito, champiñón o kanikama $1.000; camarón o salmón $1.500; atún o pulpo $2.000; ingrediente de acompañamiento $1.000; envoltura $2.000.
+- Solo pueden agregarse ingredientes presentes en la carta.
+- El resumen muestra cada recargo y subtotal de la unidad.
+- Si el cliente menciona una alergia, se registra como nota destacada; no se deriva automáticamente a humano.
+- El producto se agrega al carrito automáticamente después de confirmar la última unidad.
 - Después de agregar, el bot vuelve a la lista general de categorías de HU-04.
 
-## Pendiente de definición
+## Casos principales
 
-- Confirmación previa a agregar al carrito.
-- Corrección o cancelación durante la personalización.
-- Precios y reglas de agregados y reemplazos.
-- Casos de uso y criterios de aceptación finales.
+1. Una unidad sin modificación: confirmar y agregar.
+2. Varias unidades: personalizar cada una o copiar la anterior.
+3. Modificación válida: mostrar detalle y recargo antes de confirmar.
+4. Modificación ambigua: no aplicar y pedir nuevamente el mensaje completo.
+5. Cancelar todas: no agregar producto y volver a categorías.
+
+## Criterios de aceptación
+
+- Nunca se agrega una unidad sin confirmación explícita.
+- Entradas inválidas no alteran el carrito.
+- Cada recargo coincide con tabla aprobada y aparece antes de agregar.
+- Personalizaciones de unidades distintas permanecen separadas.
+- Alergia queda visible como nota destacada del pedido.
 
 ## Fuera de alcance
 

@@ -28,9 +28,9 @@ Convertir la carta oficial entregada en imágenes a datos estructurados que el b
 - La composición estructurada no reemplaza la descripción visible de la tabla.
 - Categorías y productos conservarán el mismo orden visual de las imágenes.
 - El JSON tendrá un campo de orden explícito para que la presentación no dependa de la posición accidental de los objetos.
-- Todas las sucursales mostrarán la carta completa durante el MVP.
-- El JSON no tendrá stock ni disponibilidad por sucursal.
-- La disponibilidad real se comprobará cuando la sucursal acepte o rechace el pedido desde el panel mínimo.
+- La Sucursal Viña del Mar mostrará la carta completa durante el MVP.
+- El JSON no tendrá stock ni disponibilidad automática.
+- La disponibilidad real se comprobará cuando el local acepte o rechace el pedido desde el panel mínimo.
 - Las elecciones obligatorias se representarán mediante una estructura común `optionGroups`.
 - Cada grupo indicará sus opciones y la cantidad mínima y máxima que debe elegir el cliente.
 - Esta estructura se usará para la proteína de Cortes individuales, el exterior salmón/camarón de Rainbow Rolls y la elección palmito/pimentón de la tabla vegetariana de $25.000.
@@ -244,7 +244,7 @@ Las ocho categorías de comida fueron transcritas y su estructura técnica qued�
 - Rainbow Rolls incluye elección obligatoria de exterior salmón o camarón.
 - Tabla vegetariana de $25.000 incluye elección obligatoria de Palmito o Pimentón.
 - Tablas incluyen sus componentes y cantidades; su composición permanece fija.
-- No existe stock ni disponibilidad por sucursal en el JSON del MVP.
+- No existe stock ni disponibilidad automática en el JSON del MVP.
 - Una prueba automatizada valida estructura, unicidad, precios y elecciones obligatorias.
 
 ## Dependencias posteriores

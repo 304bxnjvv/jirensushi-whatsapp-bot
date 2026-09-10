@@ -1,56 +1,35 @@
-# Esqueleto de historias — MVP
+# Esqueleto de historias — MVP Viña del Mar
 
-Este archivo define únicamente el mapa de trabajo. Las historias marcadas como `Por definir` no están listas para desarrollo hasta documentar reglas y criterios de aceptación.
+Orden recomendado de ejecución/refinamiento.
 
-## Ya documentadas
+| Orden | ID | Nombre | Área |
+|---:|---|---|---|
+| 1 | HU-03 | Contexto transversal del MVP | Transversal |
+| 2 | TEC-03 | Estructurar/cargar carta | Backend |
+| 3 | TEC-01 | Integrar WhatsApp Cloud API | Backend |
+| 4 | TEC-02 | Guardar estado de conversación | Backend |
+| 5 | HU-01 | Iniciar conversación/elegir modalidad | Backend · WhatsApp |
+| 6 | HU-02 | Validar disponibilidad de Viña del Mar | Backend · WhatsApp |
+| 7 | HU-04 | Navegar carta por categorías | Backend · WhatsApp |
+| 8 | HU-05 | Consultar producto | Backend · WhatsApp |
+| 9 | HU-06 | Elegir cantidad/personalizar | Backend · WhatsApp |
+| 10 | HU-07 | Revisar/modificar carrito | Backend · WhatsApp |
+| 11 | HU-10 | Guardar dirección/zona | Backend · WhatsApp |
+| 12 | HU-12 | Calcular costo por zona | Backend |
+| 13 | HU-08 | Elegir ASAP/programado | Backend · WhatsApp |
+| 14 | HU-09 | Registrar datos cliente | Backend · WhatsApp |
+| 15 | HU-13 | Confirmar pedido completo | Backend · WhatsApp |
+| 16 | HU-14 | Acceder al panel | Frontend · Backend |
+| 17 | HU-15 | Ver/buscar pedidos | Frontend · Backend |
+| 18 | HU-16 | Aceptar/rechazar/entregar | Frontend · Backend |
+| 19 | HU-17 | Informar resultado | Backend · WhatsApp |
+| 20 | HU-18 | Reabrir rechazado | Backend · WhatsApp |
+| 21 | HU-19 | Gestionar cierre excepcional | Frontend · Backend |
+| 22 | HU-20 | Transferir conversación a humano | Frontend · Backend · WhatsApp |
 
-| ID | Nombre | Área | Estado |
-|---|---|---|---|
-| HU-01 | Iniciar conversación y elegir modalidad | Backend · WhatsApp | Documentada |
-| HU-02 | Seleccionar sucursal para retiro | Backend · WhatsApp | Documentada |
-| HU-03 | Documentar contexto transversal del proyecto | Transversal | Documentada |
+HU-11 retirada: MVP opera únicamente con Viña del Mar.
 
-## Base técnica
+## Límite
 
-| ID | Nombre | Área | Estado |
-|---|---|---|---|
-| TEC-01 | Preparar integración con WhatsApp Cloud API | Backend · WhatsApp | Por definir |
-| TEC-02 | Guardar estado de la conversación | Backend | Por definir |
-| TEC-03 | Estructurar y cargar la carta de comida | Backend | Por definir |
-
-## Carta y armado del pedido
-
-| ID | Nombre | Área | Estado |
-|---|---|---|---|
-| HU-04 | Navegar la carta por categorías | Backend · WhatsApp | Por definir |
-| HU-05 | Consultar producto, precio e ingredientes | Backend · WhatsApp | Por definir |
-| HU-06 | Elegir cantidad y personalizar producto | Backend · WhatsApp | Por definir |
-| HU-07 | Revisar y modificar el carrito | Backend · WhatsApp | Por definir |
-| HU-08 | Elegir pedido lo antes posible o programado | Backend · WhatsApp | Por definir |
-| HU-09 | Registrar datos necesarios del cliente | Backend · WhatsApp | Por definir |
-
-## Despacho
-
-| ID | Nombre | Área | Estado |
-|---|---|---|---|
-| HU-10 | Validar dirección de despacho | Backend · WhatsApp | Por definir |
-| HU-11 | Asignar sucursal por ruta vehicular | Backend | Por definir |
-| HU-12 | Calcular costo de despacho por zona | Backend | Por definir |
-
-## Confirmación y panel mínimo
-
-| ID | Nombre | Área | Estado |
-|---|---|---|---|
-| HU-13 | Revisar y solicitar confirmación del pedido | Backend · WhatsApp | Por definir |
-| HU-14 | Acceder al panel de una sucursal | Frontend · Backend | Por definir |
-| HU-15 | Ver pedidos pendientes de mi sucursal | Frontend · Backend | Por definir |
-| HU-16 | Aceptar o rechazar un pedido | Frontend · Backend | Por definir |
-| HU-17 | Informar el resultado al cliente | Backend · WhatsApp | Por definir |
-| HU-18 | Modificar y reenviar un pedido rechazado | Backend · WhatsApp | Por definir |
-
-## Límite del MVP
-
-- Incluye chatbot de WhatsApp que recibe y confirma pedidos completos.
-- Incluye panel mínimo por sucursal para ver pedidos propios y aceptar o rechazar.
-- Incluye solamente carta de comida; tragos quedan fuera hasta recibir fuente oficial.
-- No incluye página pública, dashboard operativo avanzado ni coordinación automática de repartidores.
+- Bot, carta, pedidos y panel para Viña del Mar.
+- Sin web pública, tragos, varias sucursales, Google Maps ni coordinación automática de repartidores.
